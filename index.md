@@ -1,5 +1,1 @@
----
-layout: home
----
-
 # The Journal
