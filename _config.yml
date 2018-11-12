@@ -1,6 +1,15 @@
 remote_theme: mmistakes/so-simple-theme
 
 title: Moving Mountains
+
 read_time: true
 words_per_minute: 200
 mathjax: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
