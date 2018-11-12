@@ -1,1 +1,1 @@
-# Journal of Moving Mountains
+# The Journal
