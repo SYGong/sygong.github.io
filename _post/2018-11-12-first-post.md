@@ -1,4 +1,6 @@
 ---
+layout: single
+date:   2016-11-11
 title:  "Welcome to Jekyll!"
 ---
 
