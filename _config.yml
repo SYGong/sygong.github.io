@@ -40,6 +40,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  
+paginate: 5
 
 author:
   name: "Siyuan Gong"
