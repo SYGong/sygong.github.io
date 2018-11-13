@@ -5,6 +5,7 @@ title: Moving Mountains
 name: "Siyuan Gong"
 url: "https://sygong.github.io"
 repository: "SYGong/sygong.github.io"
+author: Siyuan Gong
 
 markdown: kramdown
 mathjax: true
