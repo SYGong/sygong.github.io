@@ -6,11 +6,6 @@ name: "Siyuan Gong"
 url: "https://sygong.github.io"
 repository: "SYGong/sygong.github.io"
 
-author:
-  name: "Siyuan Gong"
-  bio: "Hunting"
-  location: "Somewhere"
-
 markdown: kramdown
 mathjax: true
 # kramdown:
