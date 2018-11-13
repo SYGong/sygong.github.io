@@ -1,5 +1,6 @@
 ---
 layout: splash
+permalink: /
 ---
 
 # The Journal
