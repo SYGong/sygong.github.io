@@ -2,15 +2,16 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air"
 
 title: Moving Mountains
-url: "https://sygong.github.io"
-repository: "SYGong/sygong.github.io"
+# url: "https://sygong.github.io"
+# repository: "SYGong/sygong.github.io"
 
-read_time: true
-words_per_minute: 200
+# read_time: true
+# words_per_minute: 200
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
+# markdown: kramdown
+mathjax： true
+# kramdown:
+#  math_engine: mathjax
   
 defaults:
   # _posts
@@ -45,4 +46,4 @@ author:
   bio: "Hunting"
   location: "Somewhere"
 
-sidebar: true
+# sidebar: true
