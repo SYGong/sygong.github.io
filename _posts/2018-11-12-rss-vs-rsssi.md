@@ -1,6 +1,8 @@
 ---
 Title: 什么是RSS (Receive Signal Strength) ，以及与RSSI的区别
 mathjax: true
+header:
+  image: /assets/images/tower.jpg
 ---
 
 $$\mathit{RSS}$$ (Received Signal Strength) 是接收到的信号的功率，通常是以 $$\mathit{dB}m$$ 或 $$mW$$ 为单位[[1]]。假设我们有以 $$mW$$ 为单位的功率 $$p$$，换算成以 $$\mathit{dB}m$$ 为单位表示就是 $$10 log_{10} p$$。不管哪种单位表示，一般人都不太好理解。
