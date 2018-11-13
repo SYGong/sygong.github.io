@@ -12,6 +12,18 @@ words_per_minute: 200
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+  
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 plugins:
   - jekyll-paginate
