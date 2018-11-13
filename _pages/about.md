@@ -1,4 +1,4 @@
 ---
 layout: single
-permallinkL /about/
+permalink: /about/
 ---
