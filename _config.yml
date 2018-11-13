@@ -4,6 +4,8 @@ minimal_mistakes_skin: "sunrise"
 title: Moving Mountains
 description：My life
 locate: "zh-CN"
+url: "https://sygong.github.io"
+repository: "SYGong/sygong.github.io"
 
 read_time: true
 words_per_minute: 200
@@ -19,3 +21,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+author:
+  name: "Siyuan Gong"
+  bio: "Hunting"
+  location: "Somewhere"
