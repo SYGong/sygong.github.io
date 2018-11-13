@@ -1,5 +1,5 @@
 ---
-Title: 什么是RSS (Receive Signal Strength) ，以及与RSSI的区别
+title: 什么是RSS (Receive Signal Strength) ，以及与RSSI的区别
 mathjax: true
 header:
   image: /assets/images/Tower.jpeg
