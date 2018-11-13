@@ -6,8 +6,10 @@ name: "Siyuan Gong"
 url: "https://sygong.github.io"
 repository: "SYGong/sygong.github.io"
 
-# read_time: true
-# words_per_minute: 200
+author:
+  name: "Siyuan Gong"
+  bio: "Hunting"
+  location: "Somewhere"
 
 markdown: kramdown
 mathjax: true
@@ -44,9 +46,6 @@ plugins:
   
 paginate: 5
 
-author:
-  name: "Siyuan Gong"
-  bio: "Hunting"
-  location: "Somewhere"
 
 sidebar: true
+search: true
