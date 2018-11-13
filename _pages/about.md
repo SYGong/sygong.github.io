@@ -1,1 +1,4 @@
-
+---
+layout: single
+permallinkL /about/
+---
