@@ -1,8 +1,9 @@
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "sunrise"
 
 title: Moving Mountains
 description：My life
+locate: "zh-CN"
 
 read_time: true
 words_per_minute: 200
