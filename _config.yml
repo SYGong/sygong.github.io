@@ -6,7 +6,10 @@ description：My life
 
 read_time: true
 words_per_minute: 200
-mathjax: true
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 plugins:
   - jekyll-paginate
