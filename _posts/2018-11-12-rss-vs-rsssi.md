@@ -5,7 +5,7 @@ header:
   image: /assets/images/Tower.jpeg
 ---
 
-$$\mathit{RSS}$$ (Received Signal Strength) 是接收到的信号的功率，通常是以 $$\mathit{dB}m$$ 或 $$mW$$ 为单位[[1]]。假设我们有以 $$mW$$ 为单位的功率 $$p$$，换算成以 $$\mathit{dB}m$$ 为单位表示就是 $$10 log_{10} p$$。不管哪种单位表示，一般人都不太好理解。
+$$\mathit{RSS}$$ (Received Signal Strength) 是接收到的信号的功率，通常是以 $$\mathit{dB}m$$ 或 $$mW$$ 为单位[[1]]。假设我们有以 $$mW$$ 为单位的功率 $$p$$，换算成以 $$\mathit{dB}m$$ 为单位表示就是 $$10 log_{10} p$$。
 
 IEEE 802.11 定义了`RSSI` (Received Signal Strength Indicator)，范围从`0`到`RSSI_Max`。`RSSI_Max`的值由厂商自己定义，`RSSI`每一个值对应的 $$\mathit{RSS}$$ 也由厂商自己定义[[1]][[2]]。[[2]]中还有Atheros等不同厂商的 `RSSI` 计算方式。
 
