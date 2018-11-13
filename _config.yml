@@ -2,7 +2,6 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air"
 
 title: Moving Mountains
-locate: "zh-CN"
 url: "https://sygong.github.io"
 repository: "SYGong/sygong.github.io"
 
