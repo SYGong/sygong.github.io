@@ -8,8 +8,8 @@ title: Moving Mountains
 # read_time: true
 # words_per_minute: 200
 
-# markdown: kramdown
-mathjax： true
+markdown: kramdown
+mathjax: true
 # kramdown:
 #  math_engine: mathjax
   
