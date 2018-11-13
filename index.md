@@ -1,10 +1,10 @@
 ---
-layout: splash
+layout: default
 permalink: /
 ---
 
 # The Journal
 
 {% for post in site.posts %}
-  [{{ post.title }}]({{ post.url }})
+  - {{ post.title }}
 {% endfor %}
