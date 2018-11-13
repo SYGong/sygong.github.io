@@ -19,6 +19,7 @@ defaults:
       type: posts
     values:
       author: Siyuan Gong
+      author_profile: true
       layout: single
       read_time: true
       comments: true
@@ -31,7 +32,9 @@ defaults:
       type: pages
     values:
       layout: single
+      author: Siyuan Gong
       author_profile: true
+      share: true
 
 plugins:
   - jekyll-paginate
