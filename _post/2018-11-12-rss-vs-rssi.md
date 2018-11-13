@@ -1,5 +1,6 @@
 ---
 layout: posts
+mathjax: true
 ---
 
 ## 什么是RSS (Receive Signal Strength) ，以及与RSSI的区别
