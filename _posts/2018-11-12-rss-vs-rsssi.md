@@ -10,5 +10,5 @@ $$\mathit{RSS}$$ (Received Signal Strength) 是接收到的信号的功率，通
 ### RSSI
 IEEE 802.11 定义了`RSSI` (Received Signal Strength Indicator)，范围从`0`到`RSSI_Max`。`RSSI_Max`的值由厂商自己定义，`RSSI`每一个值对应的 $$\mathit{RSS}$$ 也由厂商自己定义[[^1]][[^2]]。[[^2]]中还有Atheros等不同厂商的 `RSSI` 计算方式。
 
-[^1]: [https://arxiv.org/pdf/1709.01015.pdf](A Survey of Indoor Localization Systems and Technologies)
+[^1]: [A Survey of Indoor Localization Systems and Technologies](https://arxiv.org/pdf/1709.01015.pdf)
 [^2]: http://madwifi-project.org/attachment/wiki/UserDocs/RSSI/Converting_Signal_Strength.pdf?format=raw "Converting Signal Strength Percentage to dBm Values"
