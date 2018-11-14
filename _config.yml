@@ -35,6 +35,8 @@ defaults:
       author: Siyuan Gong
       author_profile: true
       share: true
+      
+date_format: "%B %-d, %Y"
 
 plugins:
   - jekyll-paginate
