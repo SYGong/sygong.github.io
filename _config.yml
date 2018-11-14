@@ -48,3 +48,6 @@ paginate: 5
 
 sidebar: true
 search: true
+
+ga_track_id: 'UA-129240192-1'
+ga_domain: auto
