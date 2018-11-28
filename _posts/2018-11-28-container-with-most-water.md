@@ -20,7 +20,8 @@ class Solution:
         l, r = 0, len(height) - 1 #left pointer and right pointer 
         max_area = 0
         while l < r:
-            max_area = max(min(height[l], height[r]) * (r - l), max_area)
+            current_area = min(height[l], height[r]) * (r - l)
+            max_area = max(current_area, max_area)
             if height[l] < height[r]:
                 l += 1
             else :
