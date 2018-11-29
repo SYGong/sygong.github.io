@@ -11,7 +11,6 @@ title: "[leetCode][python3] Container With Most Water"
 ## Solution in python3
 ```python
 class Solution(object):
-class Solution:
     def maxArea(self, height):
         """
         :type height: List[int]
