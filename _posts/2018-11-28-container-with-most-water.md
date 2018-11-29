@@ -24,7 +24,7 @@ class Solution:
             max_area = max(current_area, max_area)
             if height[l] < height[r]:
                 l += 1
-            else :
+            else:
                 r -= 1
         return max_area
 ```
