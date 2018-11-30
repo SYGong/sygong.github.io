@@ -26,7 +26,7 @@ class Solution:
         eval_ = lambda l: 0 if l is None else l.val
         next_ = lambda l: None if l is None else l.next
         curr = dummy_head = ListNode(0)  
-        carry = 0 # Initiated to carry from one iteration to another
+        carry = 0
         while l1 or l2 or carry:
             sum_ = eval_(l1) + eval_(l2) + carry
             curr.next = ListNode(sum_ % 10)
@@ -41,3 +41,5 @@ class Solution:
 
 ### Without "dummy"
 Initialize head in the first iteration. [code example](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
+
+###
