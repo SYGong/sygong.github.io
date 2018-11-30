@@ -40,4 +40,4 @@ class Solution:
 ## Variants
 
 ### Without "dummy"
-Initialize head in the first iteration. [code example](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
+Initialize head at the first iteration. [code example](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
