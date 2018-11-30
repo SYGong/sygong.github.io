@@ -23,10 +23,10 @@ class Solution:
         :type l2: ListNode
         :rtype: ListNode
         """
-        eval_ = lambda l: 0 if l is None else l.val # None evaluated as 0
+        eval_ = lambda l: 0 if l is None else l.val
         next_ = lambda l: None if l is None else l.next
         curr = dummy_head = ListNode(0)  
-        carry = 0
+        carry = 0 # Initiated to carry from one iteration to another
         while l1 or l2 or carry:
             sum_ = eval_(l1) + eval_(l2) + carry
             curr.next = ListNode(sum_ % 10)
@@ -40,4 +40,21 @@ class Solution:
 ## Variants
 
 ### Without "dummy"
-If `head` is `None` set `head` to `curr`. [code example](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
+```python
+class Solution:
+    def addTwoNumbers(self, l1, l2):
+        eval_ = lambda l: 0 if l is None else l.val
+        next_ = lambda l: None if l is None else l.next
+        carry = 0
+        curr = head = ListNode(carry)  
+        while l1 or l2 or carry:
+            curr.next = ListNode(carry)
+            sum_ = eval_(l1) + eval_(l2) + curr.val
+            curr.val = sum_ % 10
+            l1 = next_(l1)
+            l2 = next_(l2)
+            carry = sum_ // 10
+            curr = curr.next
+        return head
+``` 
+[code example](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
