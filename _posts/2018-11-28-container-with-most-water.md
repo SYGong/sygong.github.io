@@ -16,7 +16,7 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        l, r = 0, len(height) - 1 #left pointer and right pointer 
+        l, r = 0, len(height) - 1  # left/right pointer 
         max_area = 0
         while l < r:
             current_area = min(height[l], height[r]) * (r - l)
