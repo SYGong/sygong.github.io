@@ -31,4 +31,4 @@ class Solution(object):
 ## Variants
 
 ### Consider the case that `height[l] == height[r]`
-Move both pointers. [code example](http://bangbingsyb.blogspot.com/2014/11/leetcode-container-with-most-water.html)
+Move both pointers. [sample](http://bangbingsyb.blogspot.com/2014/11/leetcode-container-with-most-water.html)
