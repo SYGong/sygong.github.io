@@ -42,4 +42,5 @@ You must not use `int` or `eval`, but leetCode will not prevent you get followin
 | our complicated one | 164          | 45.10     |
 | `eval()`            | 100          | 57.12     |
 | `int()`             | 40           | **99.87** |
+
 and 99.87% basically means everyone.
