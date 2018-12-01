@@ -1,5 +1,5 @@
 ---
-title: "[LeetCode][python3] Add Two Numbers"
+title: "[LeetCode][Python3] Add Two Numbers"
 ---
 
 ## From LeetCode
@@ -7,7 +7,7 @@ title: "[LeetCode][python3] Add Two Numbers"
 /
 [solution in java](https://leetcode.com/problems/add-two-numbers/solution/)
 
-## Solution in python3
+## Solution in Python3
 ```python
 # Definition for singly-linked list.
 # class ListNode:

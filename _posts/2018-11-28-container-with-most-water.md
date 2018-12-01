@@ -1,5 +1,5 @@
 ---
-title: "[LeetCode][python3] Container With Most Water"
+title: "[LeetCode][Python3] Container With Most Water"
 ---
 
 ## From LeetCode
@@ -8,7 +8,7 @@ title: "[LeetCode][python3] Container With Most Water"
 [solution in java](https://leetcode.com/problems/container-with-most-water/solution/#approach-2-two-pointer-approach)
 
 
-## Solution in python3
+## Solution in Python3
 ```python
 class Solution(object):
     def maxArea(self, height):
