@@ -1,8 +1,8 @@
 ---
-title: "[leetCode][python3] Container With Most Water"
+title: "[LeetCode][python3] Container With Most Water"
 ---
 
-## From leetCode
+## From LeetCode
 [problem description](https://leetcode.com/problems/container-with-most-water/description/)
 /
 [solution in java](https://leetcode.com/problems/container-with-most-water/solution/#approach-2-two-pointer-approach)
