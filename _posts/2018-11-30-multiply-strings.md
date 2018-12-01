@@ -1,5 +1,5 @@
 ---
-title: "[LeetCode][python3] Multiply Strings"
+title: "[LeetCode][Python3] Multiply Strings"
 ---
 
 ## From LeetCode
@@ -7,7 +7,7 @@ title: "[LeetCode][python3] Multiply Strings"
 /
 No solution provided
 
-## Solution in python3
+## Solution in Python3
 ```python
 class Solution(object):
     def multiply(self, num1, num2):
