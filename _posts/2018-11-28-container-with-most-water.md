@@ -7,7 +7,6 @@ title: "[LeetCode][Python3] Container With Most Water"
 /
 [solution in java](https://leetcode.com/problems/container-with-most-water/solution/#approach-2-two-pointer-approach)
 
-
 ## Solution in Python3
 ```python
 class Solution(object):
