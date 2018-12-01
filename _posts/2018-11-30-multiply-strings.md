@@ -5,7 +5,7 @@ title: "[LeetCode][Python3] Multiply Strings"
 ## From LeetCode
 [problem description](https://leetcode.com/problems/multiply-strings/description/)
 /
-No solution provided
+no solution provided
 
 ## Solution in Python3
 ```python
