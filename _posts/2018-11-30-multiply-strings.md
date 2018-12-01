@@ -35,6 +35,7 @@ class Solution(object):
 
 ### `return str(int(num1) * int(num2))`
 You must not use `int` or `eval`, but leetCode will not prevent you get following results
+
 |---------------------+--------------+-----------|
 | Solution            | Runtime (ms) | Beat %    |
 |---------------------| -----------: | --------: |
