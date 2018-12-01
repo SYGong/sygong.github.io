@@ -1,8 +1,8 @@
 ---
-title: "[leetCode][python3] Multiply Strings"
+title: "[LeetCode][python3] Multiply Strings"
 ---
 
-## From leetCode
+## From LeetCode
 [problem description](https://leetcode.com/problems/multiply-strings/description/)
 /
 No solution provided
@@ -34,7 +34,7 @@ class Solution(object):
 ## Variants
 
 ### `return str(int(num1) * int(num2))`
-You must not use `int` or `eval`, but leetCode will not prevent you get following results
+You must not use `int` or `eval`, but LeetCode will not prevent you get following results
 
 |---------------------+--------------+-----------|
 | Solution            | Runtime (ms) | Beat %    |

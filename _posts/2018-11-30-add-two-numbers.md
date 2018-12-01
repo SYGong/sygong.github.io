@@ -1,12 +1,11 @@
 ---
-title: "[leetCode][python3] Add Two Numbers"
+title: "[LeetCode][python3] Add Two Numbers"
 ---
 
-## From leetCode
+## From LeetCode
 [problem description](https://leetcode.com/problems/add-two-numbers/description/)
 /
 [solution in java](https://leetcode.com/problems/add-two-numbers/solution/)
-
 
 ## Solution in python3
 ```python
