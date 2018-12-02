@@ -40,10 +40,10 @@ class Solution:
 ```
 Actually, this is my first solution. It use less space but there are trade-offs. [There is another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window).
 
-### The remaining length
+### Remaining length
 ```diff
         for i, c in enumerate(s):
-+           if lens(s) - first + 1 < max_len: 
++           if len(s) - first < max_len: 
 +               break
             if c in char_index:
 ```
