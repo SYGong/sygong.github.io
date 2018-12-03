@@ -20,8 +20,8 @@ class Solution:
         max_len = 0
         for i, c in enumerate(s):
             if c in char_index:
-                first = max(char_index[c] + 1, first)                
-            char_index[c] = i                                               
+                first = max(char_index[c] + 1, first)
+            char_index[c] = i
             max_len = max(i - first + 1, max_len)
         return max_len
 ```
