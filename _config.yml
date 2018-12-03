@@ -18,9 +18,9 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       author: Siyuan Gong
       author_profile: true
-      layout: single
       read_time: true
       comments: true
       share: true
