@@ -46,8 +46,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
   
+# permalink: /blog/:categories/:year/:month/:day/:title/
+
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: /blog/page:num/
 
 sidebar: true
 search: true
