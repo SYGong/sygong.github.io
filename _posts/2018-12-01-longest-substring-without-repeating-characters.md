@@ -1,5 +1,6 @@
 ---
 title: "[LeetCode][Python3] Longest Substring Without Repeating Characters"
+tags: [LeetCode, Python3]
 ---
 
 ## From LeetCode
