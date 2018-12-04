@@ -59,3 +59,6 @@ ga_domain: auto
 
 comments:
   provider: "facebook"
+  facebook:
+    num_posts: 5
+    colorscheme: "light"
