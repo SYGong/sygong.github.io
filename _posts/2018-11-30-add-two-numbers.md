@@ -1,5 +1,6 @@
 ---
-title: "[LeetCode][Python3] Add Two Numbers"
+title: "Add Two Numbers"
+tags: [LeetCode, Python3]
 ---
 
 ## From LeetCode

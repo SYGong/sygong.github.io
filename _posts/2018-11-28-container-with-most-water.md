@@ -1,5 +1,6 @@
 ---
-title: "[LeetCode][Python3] Container With Most Water"
+title: "Container With Most Water"
+tags: [LeetCode, Python3]
 ---
 
 ## From LeetCode

@@ -1,5 +1,6 @@
 ---
-title: "[LeetCode][Python3] Multiply Strings"
+title: "Multiply Strings"
+tags: [LeetCode, Python3]
 ---
 
 ## From LeetCode
