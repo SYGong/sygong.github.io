@@ -38,6 +38,8 @@ defaults:
       
 date_format: "%B %-d, %Y"
 
+teaser: /assets/images/teaser.png
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
