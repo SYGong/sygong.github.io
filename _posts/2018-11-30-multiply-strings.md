@@ -1,6 +1,7 @@
 ---
 title: "Multiply Strings"
 tags: [LeetCode, Python3]
+categories: LeetCode
 ---
 
 ## From LeetCode

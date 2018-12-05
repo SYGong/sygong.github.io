@@ -1,6 +1,7 @@
 ---
 title: "Add Two Numbers"
 tags: [LeetCode, Python3]
+categories: LeetCode
 ---
 
 ## From LeetCode
