@@ -40,9 +40,9 @@ date_format: "%B %-d, %Y"
 
 # teaser: /assets/images/teaser.png
 
-# category_archive:
-#   type: liquid
-#   path: /projects/
+category_archive:
+  type: liquid
+  path: /projects/
 # tag_archive:
 #   type: liquid
 #   path: /tags/
