@@ -38,5 +38,4 @@ class Solution:
 ## Variants
 
 ### Longest possible substring centered at a certain index
-Stop unnecessary expansion from the second half of `s`
-[sample](https://github.com/csujedihy/lc-all-solutions/blob/master/005.longest-palindromic-substring/longest-palindromic-substring.py)
+Stop unnecessary expansion from the second half of `s`. [sample](https://github.com/csujedihy/lc-all-solutions/blob/master/005.longest-palindromic-substring/longest-palindromic-substring.py)
