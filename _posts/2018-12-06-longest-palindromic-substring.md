@@ -21,7 +21,7 @@ class Solution:
 
         def expand_to(ex_l, ex_r):
             # left/right pointer
-            if (ex_l >= 0 and ex_r < len(s) and s[ex_l] == s[ex_r]):
+            if ex_l >= 0 and ex_r < len(s) and s[ex_l] == s[ex_r]:
                 expand_to(ex_l - 1, ex_r + 1)
             else:
                 pal_len = ex_r - ex_l - 1
