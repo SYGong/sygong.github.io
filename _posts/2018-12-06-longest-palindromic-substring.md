@@ -41,3 +41,6 @@ class Solution:
 
 ### Longest possible substring centered at a certain index
 Stop unnecessary expansion from the second half of `s`. [sample](https://github.com/csujedihy/lc-all-solutions/blob/master/005.longest-palindromic-substring/longest-palindromic-substring.py)
+
+### Manacher’s Algorithm
+Finds the longest palindromic substring in linear time. [sample](https://articles.leetcode.com/longest-palindromic-substring-part-ii/)
