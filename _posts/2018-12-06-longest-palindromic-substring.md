@@ -20,7 +20,9 @@ class Solution:
         max_left, max_len = 0, 0
 
         def expand_to(p_left, p_right):
-            if p_left >= 0 and p_right < len(s) and s[p_left] == s[p_right]:
+            if (p_left >= 0 
+                    and p_right < len(s)                    
+                    and s[p_left] == s[p_right]):
                 expand_to(p_left - 1, p_right + 1)
             else:
                 pal_len = p_right - p_left - 1
