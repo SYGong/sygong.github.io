@@ -4,8 +4,8 @@ Siyuan Gong:
   location: "Boston, MA"
   links:
   - label: "LinkedIn"
-    icon: fab fa-linkedin-in"
+    icon: fab fa-linkedin-in
     url: "https://www.linkedin.com/in/siyuan-gong-12867759/"
   - label: "Hire me!"
-    icon: fas fa-envelope
+    icon: far fa-envelope
     url: "mailto:hire@siyuangong.com"
