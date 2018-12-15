@@ -3,5 +3,9 @@ Siyuan Gong:
   bio: "Hunting for amazing beasts"
   location: "Boston, MA"
   links:
-  - label: "Hire me"
+  - label: "LinkedIn"
+    icon: fab fa-linkedin-in"
+    url: "https://www.linkedin.com/in/siyuan-gong-12867759/"
+  - label: "Hire me!"
+    icon: fas fa-envelope-square
     url: "mailto:hire@siyuangong.com"
