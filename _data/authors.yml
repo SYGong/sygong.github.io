@@ -2,3 +2,6 @@ Siyuan Gong:
   name: "Siyuan Gong"
   bio: "Hunting for amazing beasts"
   location: "Boston, MA"
+  links:
+  - label: "Hire me"
+    url: "mailto:hire@siyuangong.com"
