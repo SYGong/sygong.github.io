@@ -54,35 +54,8 @@ Code credit: [Jedihy](https://github.com/csujedihy/lc-all-solutions/blob/master/
 
 ## Variants
 
-### Failure table
-Inspired by KPM (Knuth-Morris-Pratt) algorithm. Refer to following links for details
-- [KMP solution by LeetCode](https://leetcode.com/problems/shortest-palindrome/solution/#approach-3-kmp-accepted)
-- <http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/StringMatch/kuthMP.htm>
-- <https://blog.csdn.net/v_july_v/article/details/7041827>
-- [Shortest Palindrome by IDeserve](https://www.youtube.com/watch?v=c4akpqTwE5g)
-- [Knuth–Morris–Pratt algorithm on Wikipeida](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
-
-```python
-class Solution:
-    def shortestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
-        r = s[::-1]
-        p = '#'.join([s, r]) # '#' special separater
-        f = [0] * len(p) # Failure table
-
-        for i in range(1, len(p)):
-            j = f[i - 1]
-            while j > 0 and p[i] != p[j]:
-                j = f[j - 1]
-            if p[i] == l[j]:
-                f[i] = j + 1
-        
-        return ''.join([r[:len(s) - f[-1]], s])
-```
+### Iterate through `s`
+Make a list of strings, one for each row. Append each charater in `s` to proper string. [sample](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-sort-by-row)
 
 ### Others
-[Two pointers and recursion from LeetCode](https://leetcode.com/problems/shortest-palindrome/solution/#approach-2-two-pointers-and-recursion-accepted)
-[GeeksforGeeks](https://www.geeksforgeeks.org/minimum-insertions-to-form-shortest-palindrome/)
+[Interesting cycle and appending order](https://github.com/csujedihy/lc-all-solutions/blob/master/006.zigzag-conversion/zigzag-conversion.py)
