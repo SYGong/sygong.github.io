@@ -20,19 +20,17 @@ class Solution:
         """
         if numRows == 1:
             return s
-        zz = ''
+        zigzag = ''
         cycle_len = 2 * numRows - 2
-        for rn in range(numRows):
-            # rn for row number
-            for i in range(rn, len(s), cycle_len):
-                zz += s[i]
-                if rn != 0 and rn != numRows - 1:
-                    j = i + cycle_len - 2 * rn
+        for row in range(numRows):
+            for i in range(row, len(s), cycle_len):
+                zigzag += s[i]
+                if row != 0 and row != numRows - 1:
+                    jow= i + cycle_len - 2 * row
                     if j < len(s): 
-                        zz += s[j]
-        return zz
-```
-
+                        zigzag += s[j]
+        return zigzag
+``ow
 ## Variants
 
 ### Iterate through `s`
