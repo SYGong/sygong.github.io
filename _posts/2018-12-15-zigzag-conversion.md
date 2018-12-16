@@ -7,7 +7,7 @@ categories: LeetCode
 ## From LeetCode
 [problem description](https://leetcode.com/problems/zigzag-conversion/description/)
 /
-[solution](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-brute-force-accepted)
+[solution](https://leetcode.com/problems/zigzag-conversion/solution/#approach-2-visit-by-row)
 
 ## Solution in Python3
 ```python
