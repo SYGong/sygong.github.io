@@ -26,11 +26,12 @@ class Solution:
             for i in range(row, len(s), cycle_len):
                 zigzag += s[i]
                 if row != 0 and row != numRows - 1:
-                    jow= i + cycle_len - 2 * row
+                    j = i + cycle_len - 2 * row
                     if j < len(s): 
                         zigzag += s[j]
         return zigzag
-``ow
+```
+
 ## Variants
 
 ### Iterate through `s`
