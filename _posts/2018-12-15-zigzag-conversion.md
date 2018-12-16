@@ -26,13 +26,14 @@ class Solution:
             # rn for row number
             for i in range(rn, len(s), cycle_len):
                 zz += s[i]
-                j = i + cycle_len - 2 * rn
-                if rn != 0 and rn != numRows - 1 and j < len(s): 
-                    zz += s[j]
+                if rn != 0 and rn != numRows - 1:
+                    j = i + cycle_len - 2 * rn
+                    if j < len(s): 
+                        zz += s[j]
         return zz
 ```
 
 ## Variants
 
 ### Iterate through `s`
-Make a list of strings, one for each row. Append each charater in `s` to proper string. [sample](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-sort-by-row)
+Make a list of strings, one for each row. Append each charater in `s` to proper string. [sample1](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-sort-by-row) [sample2](https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/)
