@@ -27,9 +27,7 @@ class Solution:
             for i in range(rn, len(s), cycle_len):
                 zz += s[i]
                 j = i + cycle_len - 2 * rn
-                if (rn != 0 
-                    and rn != numRows - 1 
-                    and j < len(s)): 
+                if rn != 0 and rn != numRows - 1 and j < len(s): 
                     zz += s[j]
         return zz
 ```
