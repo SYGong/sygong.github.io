@@ -38,7 +38,7 @@ class Solution:
 ## Variants
 
 ### Without `math.log10()`
-Count number of `x //= 10` until `x == 0`. [sample](https://github.com/qiyuangong/leetcode/blob/master/python/009_Palindrome_Number.py)
+Count iterations of `x //= 10` until `x == 0`. [sample](https://github.com/qiyuangong/leetcode/blob/master/python/009_Palindrome_Number.py)
 
 ### Without compute # of digits
 ```diff
