@@ -79,13 +79,13 @@ class Solution:
 ```
 LeetCode says *"... this would require extra **non-constant** space for creating the string which is not allowed by the problem description."* 
 
-Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([[1]], [[2]] and etc.). If an integer limited to, say 32 bits, then $$O(2^{32}) = O(1)$$ and I don't see why its string needs **non-constant** space. 
+Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([atoi], [reverse-integer] and etc.). If an integer limited to, say 32 bits, then $$O(2^{32}) = O(1)$$ and I don't see why its string needs **non-constant** space. 
 
 I submit this solution anyway and it beats 70.27%, inluding some solutions above.
 
 ### Recursion
 The [sample](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) is a little bit tricky.
 
-[1]: https://leetcode.com/problems/reverse-integer/description/
-[2]: https://leetcode.com/problems/string-to-integer-atoi/description/
+[reverse-integer]: https://leetcode.com/problems/reverse-integer/description/
+[atoi]: https://leetcode.com/problems/string-to-integer-atoi/description/
 [solution]: (https://leetcode.com/problems/palindrome-number/solution/)
