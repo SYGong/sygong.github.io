@@ -8,7 +8,7 @@ mathjax: True
 ## From LeetCode
 [problem description](https://leetcode.com/problems/palindrome-number/description/)
 /
-[solution](https://leetcode.com/problems/palindrome-number/solution/)
+[solution]
 
 ## Solution in Python3
 ```python
@@ -77,8 +77,14 @@ class Solution:
                 return False
         return True
 ```
-LeetCode says *"... this would require extra non-constant space for creating the string which is not allowed by the problem description."*
-However, I don't buy it, because LeetCode keep gaslighting us with integer overflow issues including this problem ([solution]) and many others [[1]] [[2]]. Hey $$O(2^32) = O(1)$$, OK? So I submit this solution and it beats 70.27%, inluding some solutions above.
+LeetCode says *"... this would require extra **non-constant** space for creating the string which is not allowed by the problem description."*
+However, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution], read second intuition) and many others ([[1]], [[2]]). Hey, $$O(2^{31}) = O(1)$$ and it is still a **constant**, right? 
+
+I submit this solution anyway and it beats 70.27%, inluding some solutions above.
 
 ### Recursion
 Well, the [sample](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) is a little bit tricky.
+
+[1]: https://leetcode.com/problems/reverse-integer/description/
+[2]: https://leetcode.com/problems/string-to-integer-atoi/description/
+[solution]: (https://leetcode.com/problems/palindrome-number/solution/)
