@@ -79,7 +79,7 @@ class Solution:
 ```
 LeetCode says *"... this would require extra **non-constant** space for creating the string which is not allowed by the problem description."* 
 
-Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([[1]], [[2]] and etc.). Hey, $$O(2^{31}) = O(1)$$ and it is still a **constant**, right? 
+Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([[1]], [[2]] and etc.). If an integer limited to, say 32 bits, then $$O(2^{32}) = O(1)$$ and I don't see why its string need **non-constant** space. 
 
 I submit this solution anyway and it beats 70.27%, inluding some solutions above.
 
