@@ -1,0 +1,84 @@
+---
+title: "Palindrome Number"
+tags: [LeetCode, Python3]
+categories: LeetCode
+mathjax: True
+---
+
+## From LeetCode
+[problem description](https://leetcode.com/problems/palindrome-number/description/)
+/
+[solution](https://leetcode.com/problems/palindrome-number/solution/)
+
+## Solution in Python3
+```python
+import math
+
+class Solution:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if x == 0:
+            return True
+        if x < 0 or x % 10 == 0:
+            return False
+        digits = int(math.log10(x)) + 1
+        rev_x = 0
+        for d in range(digits // 2):
+            rev_x *= 10 
+            rev_x += x % 10
+            x //= 10
+        if digits % 2 == 1:
+            x //= 10
+        return x == rev_x
+```
+
+## Variants
+
+### Without `math.log10()`
+Count number of `x //= 10` until `x == 0`. [sample](https://github.com/qiyuangong/leetcode/blob/master/python/009_Palindrome_Number.py)
+
+### Without compute # of digits
+```diff
+        if x < 0 or x % 10 == 0:
+            return False
+-       digits = int(math.log10(x)) + 1
+        rev_x = 0
+-       for d in range(digits // 2):
++       while x > rev_x:
+            rev_x *= 10 
+            rev_x += x % 10
+            x //= 10
+-       if digits % 2 == 1:
+-           x //= 10
+-       return x == rev_x
++       return x == rev_x or x == rev_x // 10
+```
+**Note:** `x == rev_x // 10` is `True` **if and only if** original `x` is palindrome with odd number of digits.
+{: .notice}
+
+### Convert to string
+```python
+class Solution:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if x == 0:
+            return True
+        if x < 0 or x % 10 == 0:
+            return False
+        x_str = str(x)
+        for i in range(len(x_str) // 2):
+            if x_str[i] != x_str[-i - 1]:
+                return False
+        return True
+```
+LeetCode says *"... this would require extra non-constant space for creating the string which is not allowed by the problem description."*
+However, I don't buy it, because LeetCode keep gaslighting us with integer overflow issues including this problem ([solution]) and many others [[1]] [[2]]. Hey $$O(2^32) = O(1)$$, OK? So I submit this solution and it beats 70.27%, inluding some solutions above.
+
+### Recursion
+Well, the [sample](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) is a little bit tricky.
