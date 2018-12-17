@@ -42,8 +42,6 @@ Count iterations of `x //= 10` until `x == 0`. [sample](https://github.com/qiyua
 
 ### Without compute # of digits
 ```diff
-        if x < 0 or x % 10 == 0:
-            return False
 -       digits = int(math.log10(x)) + 1
         rev_x = 0
 -       for d in range(digits // 2):
