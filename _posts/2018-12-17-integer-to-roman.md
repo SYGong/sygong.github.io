@@ -55,6 +55,6 @@ Compute those substraction involved tuples and put them in `val_sym`.
 |---------------------| ------------ |
 | DCCCC               | CM           |
 | CCCC                | CD           |
-| ...                 | ...          |
+| ⋮                    | ⋮            |
 | VIIII               | IX           |
 | IIII                | IV           |
