@@ -44,5 +44,5 @@ class Solution:
 Initialize head at the first iteration. [sample](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/)
 
 ### Further refactoring
-- combine `eval_` and `next_`, or
-- Initialize `curr_nodes = [dummy_head, l1, l2]` then do `curr_nodes = map(next_, curr_nodes)` at each interation
+- Combine `eval_` and `next_`, or
+- initialize `curr_nodes = [dummy_head, l1, l2]` then do `curr_nodes = map(next_, curr_nodes)` at each interation.
