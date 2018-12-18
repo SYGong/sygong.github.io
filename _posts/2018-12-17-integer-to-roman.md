@@ -46,9 +46,9 @@ I am lucky to get
 ## Variants
 
 ### Compute special tuples
-Compute those substraction involved elements and put them in `val_sym`.
+Compute those substraction involved tuples and put them in `val_sym`.
 
-### Apply just addition rules, replace special pattern afterwards
+### Apply addition rules first, replace special pattern afterwards
 
 |---------------------+--------------|
 | Replace             | by           |
