@@ -24,11 +24,11 @@ class Solution:
         cycle_len = 2 * numRows - 2
 
         for r in range(numRows):
-            # Each cycle has at most 2 characters
-            # in each row, denote
+            # Each cycle has at most 2 
+            # characters each row, denote
             # i as index of first one and
-            # j as index of the second one
-            
+            # j as index of the second one.
+
             for i in range(r, len(s), cycle_len):
                 zigzag += s[i]
                 if r != 0 and r != numRows - 1:
