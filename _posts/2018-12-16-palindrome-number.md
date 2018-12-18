@@ -34,6 +34,7 @@ class Solution:
             x //= 10
         return x == rev_x
 ```
+Revert half of `x` and compare it to the other half. 
 
 ## Variants
 
