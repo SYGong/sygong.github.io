@@ -45,8 +45,8 @@ I am lucky to get
 
 ## Variants
 
-### Compute special tuples
-Compute those substraction involved tuples and put them in `val_sym`.
+### '4' and '9'
+Because roman numeral has good relationship with decimal numbers, we can iterate through each digit in decimal number, map digit `4` or `9` to roman numeral in [many ways](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/). Inspired by those approaches, we can get our `val_sym` computed instead of hard-coded.
 
 ### Apply addition rules first, replace special pattern afterwards
 
@@ -58,3 +58,4 @@ Compute those substraction involved tuples and put them in `val_sym`.
 | ⋮                    | ⋮            |
 | VIIII               | IX           |
 | IIII                | IV           |
+
