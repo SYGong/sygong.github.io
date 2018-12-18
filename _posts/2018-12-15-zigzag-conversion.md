@@ -22,12 +22,16 @@ class Solution:
             return s
         zigzag = ''
         cycle_len = 2 * numRows - 2
-        for row in range(numRows):
-            for i in range(row, len(s), cycle_len):
+        for r in range(numRows):
+            for i in range(r, len(s), cycle_len):                
+                # For each cycle,
+                # i is index of first character in row r and
+                # j is index of second character in row r.
+                
                 zigzag += s[i]
-                if row != 0 and row != numRows - 1:
-                    j = i + cycle_len - 2 * row
-                    if j < len(s): 
+                if r != 0 and r != numRows - 1:
+                    j = i + cycle_len - 2 * r
+                    if j < len(s):
                         zigzag += s[j]
         return zigzag
 ```
