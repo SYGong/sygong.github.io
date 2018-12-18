@@ -39,7 +39,7 @@ class Solution:
 +               first = char_index[c] + 1
             char_index[c] = i            
 ```
-Actually, this is my first solution. It use less space but there are trade-offs. [another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window).
+Actually, this is my first solution. It use less space but there are trade-offs. [another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window)
 
 ### Remaining length
 ```diff
