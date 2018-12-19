@@ -43,5 +43,5 @@ Alternatively, name `max_val` to `prev_val`, which means the value of previous s
 ## Variants
 
 ### Left to right
-Peek the next symbol. [sample1](https://github.com/csujedihy/lc-all-solutions/blob/master/013.roman-to-integer/roman-to-integer.py) [sample2](https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/)
+Peek next symbol. [sample1](https://github.com/csujedihy/lc-all-solutions/blob/master/013.roman-to-integer/roman-to-integer.py) [sample2](https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/)
 
