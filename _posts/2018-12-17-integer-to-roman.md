@@ -2,7 +2,6 @@
 title: "Integer to Roman"
 tags: [LeetCode, Python3]
 categories: LeetCode
-mathjax: True
 ---
 
 ## From LeetCode
