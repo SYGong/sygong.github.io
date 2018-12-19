@@ -45,10 +45,12 @@ I am lucky to get
 
 ## Variants
 
-### '4' and '9'
+### Decimal `4` and `9`
 Because roman numeral has good relationship with decimal numbers, we can iterate through each digit in decimal number, map digit `4` or `9` to roman numeral in [many ways](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/). Inspired by those approaches, we can get our `val_sym` computed instead of hard-coded.
 
-### Apply addition rules first, replace special pattern afterwards
+### Replace certain pattern
+
+We can ignore substraction related rules while generating `roman`, but deal with those rules afterwards by replacing following patterns:
 
 |---------------------+--------------|
 | Replace             | by           |
