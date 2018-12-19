@@ -45,7 +45,7 @@ I am lucky to get
 ## Variants
 
 ### Decimal digit
-Because roman numeral has good relationship with decimal numbers, we iterate through decimal number `num`, map each digit to roman numeral. We can handle `4` or `9` in [many ways](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/). Inspired by those approaches, we can also get our `val_sym` computed instead of hard-coded.
+Iterate through decimal number `num`, map each digit, including `4` and `9`, to roman numeral in [many ways](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/). Inspired by those approaches, we can also get our `val_sym` computed instead of hard-coded.
 
 ### Replace certain pattern
 
