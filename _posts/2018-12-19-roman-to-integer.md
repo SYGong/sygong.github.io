@@ -43,18 +43,5 @@ Alternatively, name `max_val` to `prev_val`, which means to value of previous sy
 ## Variants
 
 ### Left to right
-If the next symbol has greater value, substract the current one.
-
-### Replace certain pattern
-
-We can ignore substraction related rules while generating string `roman`, but dealt with those rules afterwards by replacing following patterns:
-
-|---------------------+--------------|
-| Replace             | by           |
-|---------------------| ------------ |
-| DCCCC               | CM           |
-| CCCC                | CD           |
-| ⋮                    | ⋮            |
-| VIIII               | IX           |
-| IIII                | IV           |
+Peek the next symbol. [sample1](https://github.com/csujedihy/lc-all-solutions/blob/master/013.roman-to-integer/roman-to-integer.py) [sample2](https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/)
 
