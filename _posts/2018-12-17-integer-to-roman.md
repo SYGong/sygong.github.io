@@ -50,7 +50,7 @@ Because roman numeral has good relationship with decimal numbers, we can iterate
 
 ### Replace certain pattern
 
-We can ignore substraction related rules while generating `roman`, but deal with those rules afterwards by replacing following patterns:
+We can ignore substraction related rules while generating `roman`, but dealt with those rules afterwards by replacing following patterns:
 
 |---------------------+--------------|
 | Replace             | by           |
