@@ -38,7 +38,7 @@ class Solution:
 I am lucky to get
 > Runtime: **120 ms**, faster than **99.54%** of Python3 online submissions for Roman to Integer.
 
-Alternatively, name `max_val` to `prev_val`, which means the value of previous symbol when we traverse `s` reversely. It just happened that `prev_val == max_val` because subtractions are restricted in roman numeral after all.
+Alternatively, aliasing `max_val` by `prev_val`, which means the value of previous symbol when we traverse `s` reversely. It just happened that `prev_val == max_val` because subtractions are restricted in roman numeral after all.
 
 ## Variants
 
