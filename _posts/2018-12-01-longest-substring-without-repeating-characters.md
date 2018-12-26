@@ -17,7 +17,7 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        first = 0  # index of current substring
+        first = 0  # Index of current substring
         char_index = {}
         max_len = 0
         for i, c in enumerate(s):
