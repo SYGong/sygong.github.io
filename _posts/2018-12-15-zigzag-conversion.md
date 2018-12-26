@@ -23,18 +23,17 @@ class Solution:
         zigzag = ''
         cycle_len = 2 * numRows - 2
 
+        # Each cycle has at most 2 characters in row r. 
+        # i denotes index of the first character and
+        # j denotes index of the second one.
         for r in range(numRows):
-            # Each cycle has at most 2 
-            # characters each row, denote
-            # i as index of first one and
-            # j as index of the second one.
-
             for i in range(r, len(s), cycle_len):
                 zigzag += s[i]
                 if r != 0 and r != numRows - 1:
                     j = i + cycle_len - 2 * r
                     if j < len(s):
                         zigzag += s[j]
+
         return zigzag
 ```
 
