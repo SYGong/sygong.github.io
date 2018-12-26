@@ -19,8 +19,9 @@ class Solution:
         """
         max_left, max_len = 0, 0
 
+        # ex_l denotes left expanding pointer
+        # ex_r denotes right expanding pointer
         def expand_to(ex_l, ex_r):
-            # left/right expanding pointer
             if ex_l >= 0 and ex_r < len(s) and s[ex_l] == s[ex_r]:
                 expand_to(ex_l - 1, ex_r + 1)
             else:
