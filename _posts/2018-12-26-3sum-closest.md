@@ -71,4 +71,4 @@ I am lucky to get
 ## Variants
 
 ### Two pointers
-Similar to [3sum's two pointers approach](https://siyuangong.com/leetcode/2018/12/22/3sum/#section-2). [sample](https://github.com/qiyuangong/leetcode/blob/master/python/016_3Sum_Closest.py)
+Similar to [3Sum's two pointers approach](https://siyuangong.com/leetcode/2018/12/22/3sum/#two-pointers). [sample](https://github.com/qiyuangong/leetcode/blob/master/python/016_3Sum_Closest.py)
