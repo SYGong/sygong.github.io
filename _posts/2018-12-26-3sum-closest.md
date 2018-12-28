@@ -22,51 +22,48 @@ class Solution:
         """
         nums = sorted(nums)
 
-        # Compute top[i] the sum of largest i numbers
+        # Let top[i] be the sum 
+        # of largest i numbers.
         top = [
-            0, 
-            nums[-1], 
+            0,
+            nums[-1],
             nums[-1] + nums[-2]
         ]
 
         min_diff = float('inf')
         three_sum = 0
 
-        # Denotes the least one of num_ints (1,2,3...)
-        # integers by x, this function return
-        # smallest/largest index of x.
-        def least_range(sum_, num_ints, lo=0):
-            nonlocal cumu_max, nums
-            num_ints_remain = num_ints - 1
-            most_i = bisect(
-                nums, sum_ // num_ints,
-                lo, len(nums) - num_ints)
-            least_i = bisect_left(
-                nums, sum_ - cumu_max[num_ints_remain], 
-                lo, len(nums) - num_ints) - 1
+        # Recursively find smallest/largest index of
+        # least number in numbers that sum up to target.
+        def closest(curr_target, num_ints, lo=0):
+            nonlocal nums, top, target, min_diff, three_sum
 
-            least_i = max(least_i, lo)
-            return least_i, most_i+1
+            if num_ints == 0:
+                if abs(curr_target) < min_diff:
+                    min_diff = abs(curr_target)
+                    three_sum = target - curr_target
+                return
+            
+            largest = len(nums) - num_ints
+            largest = bisect(
+                nums, curr_target // num_ints,
+                lo, largest)
+            smallest = bisect_left(
+                nums, curr_target - top[num_ints - 1], 
+                lo, largest) - 1
+            smallest = max(smallest, lo)
 
-        # Consider smallest number in triplets
-        a0, a1 = least_range(target, 3)
-        for i in range(a0, a1):
-            two_sum = target - nums[i]
-            b0, b1 = least_range(two_sum, 2, i + 1)
-            for j in range(b0, b1):
-                complement = two_sum - nums[j]
-                c0, c1 = least_range(complement, 1, j + 1)
-                for w in nums[c0:c1]:
-                    diff = abs(complement - w)
-                    if diff == 0:
-                        return nums[i] + nums[j] + w
-                    elif diff < min_diff:
-                        min_diff = diff
-                        three_sum = nums[i] + nums[j] + w
+            for i in range(smallest, largest + 1): 
+                if min_diff == 0:
+                    return
+                next_target = curr_target - nums[i]
+                closest(next_target, num_ints - 1, i + 1)
+
+        closest(target, 3)
         return three_sum
 ```
 I am lucky to get
-> Runtime: **316 ms**, faster than **99.78%** of Python3 online submissions for 3Sum.
+> Runtime: **52 ms**, faster than **98.13%** of Python3 online submissions for 3Sum.
 
 ## Variants
 
