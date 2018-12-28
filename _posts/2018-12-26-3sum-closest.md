@@ -2,7 +2,6 @@
 title: "3Sum Closest"
 tags: [LeetCode, Python3]
 categories: LeetCode
-toc: true
 ---
 
 ## From LeetCode
