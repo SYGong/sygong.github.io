@@ -13,7 +13,6 @@ no solution provided
 ```python
 from bisect import bisect, bisect_left
 
-
 class Solution:
     def threeSumClosest(self, nums, target):
         """
