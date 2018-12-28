@@ -23,7 +23,7 @@ class Solution:
         """
         nums = sorted(nums)
 
-        # Let top[i] be the sum 
+        # Let top[i] be the sum
         # of largest i numbers.
         top = [
             0,
@@ -34,13 +34,14 @@ class Solution:
         min_diff = float('inf')
         three_sum = 0
 
-        # Find range of the least number in 
-        # curr_n (0, 1, 2 or 3) numbers that 
-        # sum up to curr_target, then find 
+        # Find range of the least number in
+        # curr_n (0, 1, 2 or 3) numbers that
+        # sum up to curr_target, then find
         # range of 2nd least number and so on
         # by recursion. 
         def closest(curr_target, curr_n, lo=0):
-            nonlocal nums, top, target, min_diff, three_sum
+            nonlocal nums, top, target, \
+                     min_diff, three_sum
 
             if curr_n == 0:
                 if abs(curr_target) < min_diff:
@@ -54,7 +55,7 @@ class Solution:
                 nums, curr_target // curr_n,
                 lo, max_i)
             min_i = bisect_left(
-                nums, curr_target - top[next_n], 
+                nums, curr_target - top[next_n],
                 lo, max_i) - 1
             min_i = max(min_i, lo)
 
