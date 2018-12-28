@@ -68,14 +68,4 @@ I am lucky to get
 ## Variants
 
 ### Two pointers
-
-
-### Sum up to arbitrary `target`
-It is not hard to make our program more general, for example
-```diff
--           if v < 0:  # Only when v is smallest
--               two_sum = -v
-+           if v * 3 < target:  # Only when v is smallest
-+               two_sum = target - v
-```
-This is not the only piece needs modification, but you get the idea. [sample1](https://github.com/SYGong/leetcode/blob/3sum-counter/3sum.py) [sample2](https://www.geeksforgeeks.org/unique-triplets-sum-given-value/)
+Similar to 3sum's two pointers approach. [sample](https://github.com/qiyuangong/leetcode/blob/master/python/016_3Sum_Closest.py)
