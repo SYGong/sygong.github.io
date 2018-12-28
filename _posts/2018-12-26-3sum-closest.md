@@ -63,7 +63,7 @@ class Solution:
         return three_sum
 ```
 I am lucky to get
-> Runtime: **52 ms**, faster than **98.13%** of Python3 online submissions for 3Sum.
+> Runtime: **52 ms**, faster than **98.13%** of Python3 online submissions for 3Sum Closest.
 
 ## Variants
 
