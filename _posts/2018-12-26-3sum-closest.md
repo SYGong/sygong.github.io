@@ -2,6 +2,7 @@
 title: "3Sum Closest"
 tags: [LeetCode, Python3]
 categories: LeetCode
+toc: true
 ---
 
 ## From LeetCode
@@ -33,23 +34,25 @@ class Solution:
         min_diff = float('inf')
         three_sum = 0
 
-        # Recursively find smallest/largest index of
-        # least number in numbers that sum up to target.
-        def closest(curr_target, num_ints, lo=0):
+        # Recursively find smallest/largest index of the
+        # least number in curr_n (0, 1, 2 or 3) numbers 
+        # that sum up to target.
+        def closest(curr_target, curr_n, lo=0):
             nonlocal nums, top, target, min_diff, three_sum
 
-            if num_ints == 0:
+            if curr_n == 0:
                 if abs(curr_target) < min_diff:
                     min_diff = abs(curr_target)
                     three_sum = target - curr_target
                 return
             
-            largest = len(nums) - num_ints
+            next_n = curr_n - 1
+            largest = len(nums) - curr_n
             largest = bisect(
-                nums, curr_target // num_ints,
+                nums, curr_target // curr_n,
                 lo, largest)
             smallest = bisect_left(
-                nums, curr_target - top[num_ints - 1], 
+                nums, curr_target - top[next_n], 
                 lo, largest) - 1
             smallest = max(smallest, lo)
 
@@ -57,7 +60,7 @@ class Solution:
                 if min_diff == 0:
                     return
                 next_target = curr_target - nums[i]
-                closest(next_target, num_ints - 1, i + 1)
+                closest(next_target, next_n, i + 1)
 
         closest(target, 3)
         return three_sum
@@ -68,4 +71,4 @@ I am lucky to get
 ## Variants
 
 ### Two pointers
-Similar to 3sum's two pointers approach. [sample](https://github.com/qiyuangong/leetcode/blob/master/python/016_3Sum_Closest.py)
+Similar to [3sum's two pointers approach](https://siyuangong.com/leetcode/2018/12/22/3sum/#section-2). [sample](https://github.com/qiyuangong/leetcode/blob/master/python/016_3Sum_Closest.py)
