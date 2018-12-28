@@ -34,9 +34,10 @@ class Solution:
         min_diff = float('inf')
         three_sum = 0
 
-        # Recursively find smallest/largest index of the
-        # least number in curr_n (0, 1, 2 or 3) numbers 
-        # that sum up to target.
+        # Find smallest/largest index of the least number
+        # in curr_n (0, 1, 2 or 3) numbers that sum up to 
+        # curr_target. Find 2nd least one, then 3rd least 
+        # one and so on by recursion. 
         def closest(curr_target, curr_n, lo=0):
             nonlocal nums, top, target, min_diff, three_sum
 
@@ -47,16 +48,16 @@ class Solution:
                 return
             
             next_n = curr_n - 1
-            largest = len(nums) - curr_n
-            largest = bisect(
+            max_i = len(nums) - curr_n
+            max_i = bisect(
                 nums, curr_target // curr_n,
-                lo, largest)
-            smallest = bisect_left(
+                lo, max_i)
+            min_i = bisect_left(
                 nums, curr_target - top[next_n], 
-                lo, largest) - 1
-            smallest = max(smallest, lo)
+                lo, max_i) - 1
+            min_i = max(min_i, lo)
 
-            for i in range(smallest, largest + 1): 
+            for i in range(min_i, max_i + 1): 
                 if min_diff == 0:
                     return
                 next_target = curr_target - nums[i]
