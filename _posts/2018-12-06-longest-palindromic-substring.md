@@ -17,7 +17,7 @@ class Solution:
         :type s: str
         :rtype: str
         """
-        max_left, max_len = 0, 0
+        max_start, max_len = 0, 0
 
         # ex_l denotes left expanding pointer
         # ex_r denotes right expanding pointer
@@ -26,15 +26,15 @@ class Solution:
                 expand_to(ex_l - 1, ex_r + 1)
             else:
                 pal_len = ex_r - ex_l - 1
-                nonlocal max_left, max_len
+                nonlocal max_start, max_len
                 if max_len < pal_len:
-                    max_left = ex_l + 1
+                    max_start = ex_l + 1
                     max_len = pal_len
 
         for i in range(len(s)):
             expand_to(i, i)
             expand_to(i, i + 1)
-        return s[max_left : max_left + max_len]
+        return s[max_start : max_start + max_len]
 ```
 
 ## Variants
