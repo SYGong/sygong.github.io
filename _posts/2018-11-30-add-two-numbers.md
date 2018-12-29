@@ -24,8 +24,8 @@ class Solution:
         :type l2: ListNode
         :rtype: ListNode
         """
-        eval_ = lambda l: 0 if l is None else l.val
-        next_ = lambda l: None if l is None else l.next
+        eval_ = lambda node: 0 if node is None else node.val
+        next_ = lambda node: None if node is None else node.next
         curr = dummy_head = ListNode(0)  
         carry = 0
         while l1 or l2 or carry:
