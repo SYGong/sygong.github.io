@@ -17,7 +17,7 @@ class Solution:
         :type digits: str
         :rtype: List[str]
         """
-        num_char = [
+        letters = [
             '',
             '',
             'abc',
@@ -38,7 +38,7 @@ class Solution:
                 if len(path) > 0:
                     combinations.append(''.join(path))
                 return
-            for c in num_char[int(digits[0])]:
+            for c in letters[int(digits[0])]:
                 path.append(c)
                 dfs(digits[1:])
                 path.pop()
