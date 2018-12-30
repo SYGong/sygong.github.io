@@ -30,18 +30,18 @@ class Solution:
             'wxyz'
         ]       
         combinations = []
-        letters = []
+        path = []
 
         def dfs(digits):
-            nonlocal combinations, letters
+            nonlocal combinations, path
             if digits == '':
-                if len(letters) > 0:
-                    combinations.append(''.join(letters))
+                if len(path) > 0:
+                    combinations.append(''.join(path))
                 return
             for c in num_char[int(digits[0])]:
-                letters.append(c)
+                path.append(c)
                 dfs(digits[1:])
-                letters.pop()
+                path.pop()
                 
         dfs(digits)
         return combinations
