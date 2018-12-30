@@ -36,9 +36,8 @@ class Solution:
         # numbers that sum up to curr_target, then find range of 
         # 2nd least number and so on by recursion. 
         def closest(curr_target, curr_n, lo=0):
-            nonlocal min_diff, three_sum
-
             if curr_n == 0:
+                nonlocal min_diff, three_sum
                 if abs(curr_target) < min_diff:
                     min_diff = abs(curr_target)
                     three_sum = target - curr_target
