@@ -30,16 +30,19 @@ class Solution:
             'wxyz'
         ]       
         combinations = []
+        letters = []
 
-        def dfs(letters, digits):
-            nonlocal combinations
+        def dfs(digits):
+            nonlocal combinations, letters
             if digits == '':
-                if letters != '': 
-                    combinations.append(letters)
+                if letters:
+                    combinations.append(''.join(letters))
                 return
             for c in num_char[int(digits[0])]:
-                dfs(letters + c, digits[1:])
+                letters.append(c)
+                dfs(digits[1:])
+                letters.pop()
                 
-        dfs('', digits)
+        dfs(digits)
         return combinations
 ```
