@@ -33,7 +33,6 @@ class Solution:
         path = []
 
         def dfs(digits):
-            nonlocal combinations, path
             if digits == '':
                 if len(path) > 0:
                     combinations.append(''.join(path))
