@@ -35,7 +35,7 @@ class Solution:
         def dfs(digits):
             nonlocal combinations, letters
             if digits == '':
-                if letters:
+                if len(letters) > 0:
                     combinations.append(''.join(letters))
                 return
             for c in num_char[int(digits[0])]:
