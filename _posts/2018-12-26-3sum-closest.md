@@ -56,8 +56,9 @@ class Solution:
             for i in range(min_i, max_i + 1): 
                 if min_diff == 0:
                     return
-                next_target = curr_target - nums[i]
-                closest(next_target, next_n, i + 1)
+                if i == min_i or nums[i] != nums[i - 1]:
+                    next_target = curr_target - nums[i]
+                    closest(next_target, next_n, i + 1)
 
         closest(target, 3)
         return three_sum
