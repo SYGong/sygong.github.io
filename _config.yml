@@ -74,3 +74,5 @@ comments:
   facebook:
     num_posts: 5
     colorscheme: "light"
+
+og_image: /assets/images/moving_mountains.png
