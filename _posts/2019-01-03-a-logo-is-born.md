@@ -23,4 +23,3 @@ Essentially it is a window through which you will see blue mountain (probability
 
 ## Takeaway
 Better to have a logo, even an ugly one, because it is so hard to tell a tab from other 40 or even more tabs without a logo (favicon). Two month ago, with some online tools I drew a logo very similar to the black-and-white logo in step 1 (further steps were in my mind but no proper tool by my hand). It is not beautiful but much better than nothing.
-
