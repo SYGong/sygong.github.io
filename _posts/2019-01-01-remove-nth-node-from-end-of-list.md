@@ -1,5 +1,5 @@
 ---
-title: "4Sum"
+title: "Remove Nth Node From End of List"
 tags: [LeetCode, Python3]
 categories: LeetCode
 ---
@@ -11,108 +11,32 @@ categories: LeetCode
 
 ## Solution in Python3
 ```python
-from bisect import bisect_left
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
 class Solution:
-    def fourSum(self, nums, target):
+    def removeNthFromEnd(self, head, n):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[List[int]]
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
         """
-        N = 4
-        quadruplets = []
-        if len(nums) < N:
-            return quadruplets
-        nums = sorted(nums)
-        quadruplet = []
-
-        # Let top[i] be the sum of largest i numbers.
-        top = [0]       
-        for i in range(1, N):
-            top.append(top[i - 1] + nums[-i])
-        
-        # Find range of the least number in curr_n (0,...,N)
-        # numbers that sum up to curr_target, then find range
-        # of 2nd least number and so on by recursion.
-        def sum_(curr_target, curr_n, lo=0):
-            if curr_n == 0:
-                if curr_target == 0:
-                    quadruplets.append(quadruplet[:])
-                return
-            
-            next_n = curr_n - 1
-            max_i = len(nums) - curr_n
-            max_i = bisect_left(
-                nums, curr_target // curr_n,
-                lo, max_i)
-            min_i = bisect_left(
-                nums, curr_target - top[next_n],
-                lo, max_i)
-
-            for i in range(min_i, max_i + 1): 
-                if i == min_i or nums[i] != nums[i - 1]:
-                    quadruplet.append(nums[i])
-                    next_target = curr_target - nums[i]
-                    sum_(next_target, next_n, i + 1)
-                    quadruplet.pop()
-
-        sum_(target, N)
-        return quadruplets
+        Np1th_from_curr = head
+        curr_node = head
+        while curr_node.next:
+            curr_node = curr_node.next
+            if n > 0:
+                n -= 1
+            else:
+                Np1th_from_curr = Np1th_from_curr.next
+        if n > 0:
+            head = head.next
+        else:
+            Np1th_from_curr.next = Np1th_from_curr.next.next
+        return head
 ```
 
 ## Variants
-
-### Two pointers
-```diff
-            # When all 3 numbers are different
-            if v < 0:  # only when v is smallest
-                two_sum = -v
-
--               # Lower/upper bound of the smaller of remaining
--               # two.
--               lb = bisect_left(nums, two_sum - max_num, i + 1)
--               ub = bisect(nums, two_sum // 2, lb)
-+               # Lower bound for the smaller of remaining two.
-+               lb = bisect_left(nums, two_sum - max_num, i + 1)
-+               lb = min(lb, len(nums) - 1)
-+
-+               # Upper bound of the greater of remaining two.
-+               ub = bisect(nums, two_sum - nums[lb], lb + 1)
-+               ub = min(ub, len(nums) - 1)
-                      
--               for u in nums[lb : ub]:
--                   complement = two_sum - u
--                   if complement in num_freq and u != complement:
--                       triplets.append([v, u, complement])
-+               while lb < ub:
-+                   if nums[lb] + nums[ub] == two_sum:
-+                       triplets.append([v, nums[lb], nums[ub]])
-+                       lb += 1
-+                       ub -= 1
-+                   elif nums[lb] + nums[ub] > two_sum:
-+                       ub -= 1
-+                   else:
-+                       lb += 1
-        return triplets
-```
-This solution is not bad, it has:
-> Runtime: **808 ms**, faster than **88.99%** of Python3 online submissions for 3Sum.
-
-In case we can't get binary search effortlessly, let `lb = i + 1` and `ub = len(nums) - 1`. This [sample](https://github.com/SYGong/leetcode/blob/3sum-counter/3sum.py) has
-> Runtime: **492 ms**, faster than **97.76%** of Python3 online submissions for 3Sum.
-
-Not bad at all.
-
-### Remove duplicated triplets
-This problem is difficult only because we need many conditions to keep all triplets are unique (otherwise [code](https://github.com/SYGong/leetcode/blob/23ad10e2549bb2e33e502d43a3b00c7dc40d5544/3sum.py) will be simple). If we handle duplicates seperately, it could be easier to write and read. However, it may not worth the effort to compare triplets given the data structure we have by hand. It will also sacrifice runtime.
-
-### Sum up to arbitrary `target`
-It is not hard to make our program more general, for example
-```diff
--           if v < 0:  # Only when v is smallest
--               two_sum = -v
-+           if v * 3 < target:  # Only when v is smallest
-+               two_sum = target - v
-```
-This is not the only piece needs modification, but you get the idea. [sample1](https://github.com/SYGong/leetcode/blob/3sum-counter/3sum.py) [sample2](https://www.geeksforgeeks.org/unique-triplets-sum-given-value/)
