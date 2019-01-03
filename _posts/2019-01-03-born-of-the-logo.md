@@ -4,7 +4,7 @@ tags: [Logo]
 categories: "siyuangong.com"
 ---
 
-## With 4 steps
+## 4 steps
 
 1. Framing 
 ![Logo Framing](/assets/images/logo0.svg){: .align-center}
