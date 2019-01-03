@@ -1,22 +1,26 @@
 ---
-title: "Born of the Logo"
+title: "A Logo is Born (in 20 Minutes)"
 tags: [Logo]
 categories: "siyuangong.com"
 ---
 
-## Better have one
-Two month ago, I decided to design a logo for [Moving Mountains]({{ site.baseurl }}), because I can't not tell the tab of this website from other 40 or even more tabs. After a dinner, I did this
+## With 4 steps
 
-![First Logo](/assets/images/logo0.svg){: .align-center}
+1. Framing 
+![Logo Framing](/assets/images/logo0.svg){: .align-center}
 
-and was happy to tell everyone in [Changelog-2018-12-03]({{ "siyuangong.com/2018/12/03/Changelog-2018-12-03/" | absolute_url }}).
+2. Curving 
+![Logo Curving](/assets/images/logo1.svg){: .align-center}
 
-## Big deal
-I definity thought about it for a while, 
+3. Coloring
+![Logo Coloring](/assets/images/logo2.svg){: .align-center}
 
-## Play vectors well
+4. Detailing
+![Logo Detailing](/assets/images/logo3.svg){: .align-center}
 
-## Coloring
-Ultimately the image is made of colors. Good colors are as important as, if not more than, the shapes and curves. 
+## Idea
+Essentially it is a window through which you will see blue mountain and sky, something that is beautiful to share (like [Blue Hills](https://www.google.com/maps/place/Blue+Hills+Reservation/@42.215952,-71.0676048,15z/) through my window). The window frame separated by that mountain (probability density function of normal distribution) in havles with top half becomes `M` (for moving) and bottom half becomes a chinese character 山 (mountains, Chinese characters are pictographic). It is more saturated to echoing website title [Moving Mountains]({{ site.url }}). 
 
-## Conclusion
+## Aftermath
+Better to have one, even an ugly one, because it is so hard to tell the tab from other 40 or even more tabs without a logo (favicon). Two month ago, with some online tools I drew a logo very similar to the black-and-white logo in step 1 (further steps were in my mind but no proper tool by my hand). It is not beautiful but way better than nothing. I was happy to tell everyone in [Changelog-2018-12-03]({{ "siyuangong.com/2018/12/03/Changelog-2018-12-03/" | absolute_url }}).
+
