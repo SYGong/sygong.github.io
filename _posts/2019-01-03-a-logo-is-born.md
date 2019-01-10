@@ -1,7 +1,7 @@
 ---
 title: "A Logo is Born (in 20 Minutes)"
 tags: [Logo]
-categories: "siyuangong.com"
+categories: "meta"
 ---
 
 ## 4 steps
