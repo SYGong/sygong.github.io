@@ -2,6 +2,7 @@
 title: "Remove Nth Node From End of List"
 tags: [LeetCode, Python3]
 categories: LeetCode
+mathjax: true
 ---
 
 ## From LeetCode
@@ -44,3 +45,6 @@ class Solution:
 ```
 I am lucky to get
 > Runtime: **60 ms**, faster than **98.02%** of Python3 online submissions for Remove Nth Node From End of List.
+
+### Time Complexity
+$$O(L)$$, where $$L$$ is the length of linked list.
