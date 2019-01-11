@@ -2,7 +2,6 @@
 title: "Remove Nth Node From End of List"
 tags: [LeetCode, Python3]
 categories: LeetCode
-mathjax: true
 ---
 
 ## From LeetCode
