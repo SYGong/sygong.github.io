@@ -46,4 +46,4 @@ class Solution:
         return combinations
 ```
 ### Time Complexity
-$$O(N^4)$$, where $$N$$ is the number of digits (each digits map to at most 4 letters).
+$$O(4^N)$$, where $$N$$ is the number of digits (each digit map to at most 4 letters).
