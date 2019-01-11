@@ -32,7 +32,7 @@ class Solution:
         if not curr_node:
             return head.next
 
-        # Right now, head is the (n+1)th node from curr_node which 
+        # Right now, head is the (n+1)th node from curr_node which
         # is not None.
         np1th_from_curr = head
 
