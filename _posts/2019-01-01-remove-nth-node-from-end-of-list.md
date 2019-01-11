@@ -47,4 +47,4 @@ I am lucky to get
 > Runtime: **60 ms**, faster than **98.02%** of Python3 online submissions for Remove Nth Node From End of List.
 
 ### Time Complexity
-$$O(L)$$, where $$L$$ is the length of linked list.
+$$O(l)$$, where $$l$$ is the length of linked list.
