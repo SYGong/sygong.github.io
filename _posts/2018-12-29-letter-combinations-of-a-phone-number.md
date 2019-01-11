@@ -45,3 +45,5 @@ class Solution:
         dfs(digits)
         return combinations
 ```
+### Time Complexity
+$$O(N^4)$$, where $$N$$ is the number of digits (each digits map to at most 4 letters).
