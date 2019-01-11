@@ -24,19 +24,23 @@ class Solution:
         :type n: int
         :rtype: ListNode
         """
-        Np1th_from_curr = head
         curr_node = head
+        for i in range(n):
+            curr_node = curr_node.next
+        
+        # List has exactly n nodes.
+        if not curr_node:
+            return head.next
+
+        # Right now, head is the (n+1)th node from curr_node which 
+        # is not None.
+        np1th_from_curr = head
+
         while curr_node.next:
             curr_node = curr_node.next
-            if n > 0:
-                n -= 1
-            else:
-                Np1th_from_curr = Np1th_from_curr.next
-        if n > 0:
-            head = head.next
-        else:
-            Np1th_from_curr.next = Np1th_from_curr.next.next
+            np1th_from_curr = np1th_from_curr.next
+        np1th_from_curr.next = np1th_from_curr.next.next
         return head
 ```
-
-## Variants
+I am lucky to get
+> Runtime: **60 ms**, faster than **98.02%** of Python3 online submissions for Remove Nth Node From End of List.
