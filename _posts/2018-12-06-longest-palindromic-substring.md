@@ -37,6 +37,9 @@ class Solution:
         return s[max_start : max_start + max_len]
 ```
 
+### Time Complexity
+$$O(l^2)$$, where $$l$$ is the length of `s`. Expansion starts from `s[i]` (or, `s[i]` and `s[i+1]`)  takes $$O(l)$$.
+
 ## Variants
 
 ### Longest possible substring centered at a certain index
