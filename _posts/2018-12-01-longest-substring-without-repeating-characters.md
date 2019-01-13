@@ -28,6 +28,9 @@ class Solution:
         return max_len
 ```
 
+### Time Complexity
+$$O(l)$$, where $$l$$ is the length of `s`.
+
 ## Variants
 
 ### Just maintain `char_index` for current substring
@@ -39,7 +42,7 @@ class Solution:
 +               sub_start = char_index[c] + 1
             char_index[c] = i            
 ```
-Actually, this is my sub_start solution. It use less space but there are trade-offs. [another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window)
+Actually, this is my first solution. It use less space but there are trade-offs. [another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window)
 
 ### Remaining length
 ```diff
