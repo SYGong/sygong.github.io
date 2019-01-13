@@ -30,6 +30,9 @@ class Solution(object):
         return max_area
 ```
 
+### Time Complexity
+$$O(n)$$, where $$n$$ is the number of vertical bars, i.e., `len(height)`.
+
 ## Variants
 
 ### Consider the case that `height[l] == height[r]`

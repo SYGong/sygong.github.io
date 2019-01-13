@@ -38,6 +38,9 @@ class Solution:
         return dummy_head.next
 ```
 
+### Time Complexity
+$$O(l_1 + l_2)$$, where $$l_1$$ and $$l_2$$ are the length of `l1` and `l2`, respectively.
+
 ## Variants
 
 ### Without "dummy"
