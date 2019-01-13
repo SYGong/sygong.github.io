@@ -19,8 +19,7 @@ class Solution:
         """
         max_start, max_len = 0, 0
 
-        # ex_l denotes left expanding pointer
-        # ex_r denotes right expanding pointer
+        # ex_l/ex_r denotes left/right expanding pointer
         def expand_to(ex_l, ex_r):
             if ex_l >= 0 and ex_r < len(s) and s[ex_l] == s[ex_r]:
                 expand_to(ex_l - 1, ex_r + 1)
@@ -38,7 +37,8 @@ class Solution:
 ```
 
 ### Time Complexity
-$$O(l^2)$$, where $$l$$ is the length of `s`. Expansion starts from `s[i]` (or, `s[i]` and `s[i+1]`) takes $$O(l)$$.
+$$O(l^2)$$, where $$l$$ is the length of `s`. 
+- Expansion starts from `s[i]` (or, `s[i]` and `s[i+1]`) takes $$O(l)$$.
 
 ## Variants
 
