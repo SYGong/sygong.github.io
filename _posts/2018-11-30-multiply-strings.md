@@ -38,7 +38,7 @@ $$O(l_1 l_2)$$, where $$l_1$$ and $$l_2$$ are the length of `num1` and `num2`, r
 ## Variants
 
 ### `return str(int(num1) * int(num2))`
-You must not use `int` or `eval`, but LeetCode will not prevent you get following results
+Use `int` or `eval` is cheating, but LeetCode will not prevent you get following results
 
 |---------------------+--------------+-----------|
 | Solution            | Runtime (ms) | Beat %    |
