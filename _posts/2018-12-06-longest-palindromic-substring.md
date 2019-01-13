@@ -38,7 +38,7 @@ class Solution:
 
 ### Time Complexity
 $$O(l^2)$$, where $$l$$ is the length of `s`. 
-- Expansion starts from `s[i]` (or, `s[i]` and `s[i+1]`) takes $$O(l)$$.
+- Each iteration takes $$O(l)$$.
 
 ## Variants
 
