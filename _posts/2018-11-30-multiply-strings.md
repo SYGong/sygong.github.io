@@ -32,6 +32,9 @@ class Solution(object):
         return "".join(map(str, product))
 ```
 
+### Time Complexity
+$$O(l_1 l_2)$$, where $$l_1$$ and $$l_2$$ are the length of `num1` and `num2`, respectively.
+
 ## Variants
 
 ### `return str(int(num1) * int(num2))`
