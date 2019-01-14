@@ -39,12 +39,12 @@ $$O(l_1 l_2)$$, where $$l_1$$ and $$l_2$$ are the length of `num1` and `num2`, r
 
 ### `return str(int(num1) * int(num2))`
 Use `int` or `eval` is cheating, but LeetCode will not prevent you get following results
-
-|---------------------+--------------+-----------|
-| Solution            | Runtime (ms) | Beat %    |
-|---------------------| -----------: | --------: |
-| our complicated one | 164          | 45.10     |
-| `eval()`            | 100          | 57.12     |
-| `int()`             | **40**       | **99.87** |
+ 
+|---------------------+--------------+------------|
+| Solution            | Runtime (ms) | Beat %     |
+|---------------------| -----------: | ---------: |
+| our complicated one | 164          | 52.92      |
+| `eval()`            | 100          | 60.95      |
+| `int()`             | **40**       | **100.00** |
 
 and **99.87%** basically means everyone.
