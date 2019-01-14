@@ -47,4 +47,4 @@ Use `int` or `eval` is cheating, but LeetCode will not prevent you get following
 | `eval()`            | 100          | 60.95      |
 | `int()`             | **40**       | **100.00** |
 
-and **99.87%** basically means everyone.
+It beats everyone.
