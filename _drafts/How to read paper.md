@@ -47,3 +47,9 @@ all depends on personal needs.
 a pool of papers
 field, citations, top conference
 
+it’s very easy to transform every
+negative comment into a constructive suggestion, and you shouldn’t need to have to do
+with is by actually inventing new ideas, just suggesting that the authors should invent
+some. For example: “This system doesn’t deal with unexpected vegetables” can be
+turned into the more positive “The paper would be much stronger if it discussed how
+the system deals with unexpected vegetables.”
