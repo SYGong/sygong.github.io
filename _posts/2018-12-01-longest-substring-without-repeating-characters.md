@@ -21,33 +21,28 @@ class Solution:
         char_index = {}
         max_len = 0
         for i, c in enumerate(s):
-            if c in char_index:
-                sub_start = max(char_index[c] + 1, sub_start)
-            char_index[c] = i
-            max_len = max(i - sub_start + 1, max_len)
+            if c in char_index and char_index[c] >= sub_start:
+                sub_start = char_index[c] + 1
+            else:
+                max_len = max(i - sub_start + 1, max_len)
+            char_index[c] = i            
         return max_len
 ```
+I am lucky to get
+> Runtime: **124 ms**, faster than **90.32%** of Python3 online submissions for Longest Substring Without Repeating Characters.
 
 ### Time Complexity
 $$O(l)$$, where $$l$$ is the length of `s`.
 
 ## Variants
 
-### Just maintain `char_index` for current substring
-```diff
-            if c in char_index:
-+               for j in range(sub_start, char_index[c]):
-+                   del char_index[s[j]]
--               sub_start = max(char_index[c] + 1, sub_start)
-+               sub_start = char_index[c] + 1
-            char_index[c] = i            
-```
-Actually, this is my first solution. It use less space but there are trade-offs. [another implementation on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/#approach-2-sliding-window)
-
 ### Remaining length
 ```diff
-        for i, c in enumerate(s):
-+           if len(s) - sub_start < max_len: 
-+               break
-            if c in char_index:
+            if c in char_index and char_index[c] >= sub_start:
+                sub_start = char_index[c] + 1
++               if len(s) - sub_start < max_len:
++                   break
+            else:
 ```
+It is a tad faster with
+> Runtime: **120 ms**, faster than **94.55%** of Python3 online submissions for Longest Substring Without Repeating Characters.
