@@ -36,6 +36,11 @@ class Solution:
 
         return zigzag
 ```
+I am lucky to get
+> Runtime: **100 ms**, faster than **98.97%** of Python3 online submissions for ZigZag Conversion.
+
+### Time Complexity
+$$O(l)$$, where $$l$$ is the length of `s`.
 
 ## Variants
 
