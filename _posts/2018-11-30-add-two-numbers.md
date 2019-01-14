@@ -37,6 +37,8 @@ class Solution:
             carry = sum_ // 10
         return dummy_head.next
 ```
+I am lucky to get
+> Runtime: **116 ms**, faster than **98.72%** of Python3 online submissions for Add Two Numbers.
 
 ### Time Complexity
 $$O(l_1 + l_2)$$, where $$l_1$$ and $$l_2$$ are the length of `l1` and `l2`, respectively.
