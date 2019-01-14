@@ -29,6 +29,8 @@ class Solution(object):
                 r -= 1
         return max_area
 ```
+I am lucky to get
+> Runtime: **72 ms**, faster than **98.75%** of Python3 online submissions for Container With Most Water.
 
 ### Time Complexity
 $$O(n)$$, where $$n$$ is the number of vertical bars, i.e., `len(height)`.
