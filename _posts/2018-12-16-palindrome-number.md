@@ -34,7 +34,11 @@ class Solution:
             x //= 10
         return x == rev_x
 ```
-Revert half of `x` and compare it to the other half. 
+I got
+> Runtime: **440 ms**, faster than **79.39%** of Python3 online submissions for ZigZag Conversion.
+
+### Time Complexity
+$$O(n)$$, where $$n$$ is the number of digits.
 
 ## Variants
 
@@ -66,10 +70,6 @@ class Solution:
         :type x: int
         :rtype: bool
         """
-        if x == 0:
-            return True
-        if x < 0 or x % 10 == 0:
-            return False
         x_str = str(x)
         for i in range(len(x_str) // 2):
             if x_str[i] != x_str[-i - 1]:
@@ -80,7 +80,10 @@ LeetCode says *"... this would require extra **non-constant** space for creating
 
 Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([atoi], [reverse-integer] and etc.). If an integer limited to, say 32 bits, then $$O(2^{32}) = O(1)$$ and I don't see why its string needs **non-constant** space. 
 
-I submit this solution anyway and it beats 70.27%, inluding some solutions above.
+I submit this solution and get
+> Runtime: **412 ms**, faster than **96.58%** of Python3 online submissions for Palindrome Number.
+
+Faster than any solutions above.
 
 ### Recursion
 The [sample](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) is a little bit tricky.
