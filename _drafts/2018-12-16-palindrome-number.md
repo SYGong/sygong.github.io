@@ -34,7 +34,14 @@ class Solution:
 I got
 > Runtime: **440 ms**, faster than **79.39%** of Python3 online submissions for Palindrome Number.
 
-Many conditions need to consider. Roughtly speaking, the while loop will cut the number into halves and reverse the second half. I say roughtly because this will only happen when `x` has even number of digits and left most digit is less than or equal to right most digit, e.g. `x = 1234` will results `12` and `43` but if `x =  4321` will then be `123` and `4` and you need be careful. If Then you need to be careful about what do you have for 
+Many conditions need to consider. Roughtly speaking, the while loop will cut the number into halves and reverse the second half. I say roughtly because this will only happen when `x` has even number of digits and left most digit is less than or equal to right most digit, e.g. `x = 1234` will results `12` and `43` but if `x =  4321` will then be `123` and `4` and you need be careful. Another thing is trailing `0`s, `1000` will be `100` and `0`, `10` and `0`, `1` and `0`, `0` and `1` that is very scary.
+`1010` will be `101` and `0`, `10` and `1`, `1` and `10` and will and  If Then you need to be careful about what do you have for 
+
+Those conditions are not optional cases to improve performance, instead they are very important.
+
+So let's get number of digit first,
+Why dont we just store each digit
+//10 and %10, then compare list elements
 
 ### Time Complexity
 $$O(n)$$, where $$n$$ is the number of digits.
