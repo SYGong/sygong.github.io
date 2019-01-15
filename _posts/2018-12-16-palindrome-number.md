@@ -35,7 +35,7 @@ class Solution:
         return x == rev_x
 ```
 I got
-> Runtime: **440 ms**, faster than **79.39%** of Python3 online submissions for ZigZag Conversion.
+> Runtime: **440 ms**, faster than **79.39%** of Python3 online submissions for Palindrome Number.
 
 ### Time Complexity
 $$O(n)$$, where $$n$$ is the number of digits.
@@ -81,9 +81,9 @@ LeetCode says *"... this would require extra **non-constant** space for creating
 Well, I don't buy it, because LeetCode keeps gaslighting us with integer overflow issues including this problem ([LeetCode's solution][solution] second intuition) and many others ([atoi], [reverse-integer] and etc.). If an integer limited to, say 32 bits, then $$O(2^{32}) = O(1)$$ and I don't see why its string needs **non-constant** space. 
 
 I submit this solution and get
-> Runtime: **412 ms**, faster than **96.58%** of Python3 online submissions for Palindrome Number.
+> Runtime: **288 ms**, faster than **99.11%** of Python3 online submissions for Palindrome Number.
 
-Faster than any solutions above.
+Faster than most solutions above.
 
 ### Recursion
 The [sample](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) is a little bit tricky.
