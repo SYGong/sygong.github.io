@@ -42,6 +42,11 @@ Those conditions are not optional cases to improve performance, instead they are
 So let's get number of digit first,
 Why dont we just store each digit
 //10 and %10, then compare list elements
+easy.
+
+https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/ Use resursion, do not need to take care of all those cases, need better explaination.
+
+https://www.geeksforgeeks.org/check-number-palindrome-not-without-using-extra-space/ this is good.
 
 ### Time Complexity
 $$O(n)$$, where $$n$$ is the number of digits.
