@@ -1,7 +1,7 @@
 ---
 title: "Longest Palindromic Substring"
 tags: [LeetCode, Python3]
-categories: LeetCode
+categories: leetcore
 ---
 
 ## From LeetCode
