@@ -13,7 +13,7 @@ MobiSys '11 Proceedings of the 9th international conference on Mobile systems, a
 ## Fingerprint
 
 ### Collection
-At each location, rotate the 3 axes magnetic sensor in a 5 cm diameter circle by a stepper motor with 100 steps per rotation to get $$\mathbf{m}_1,...,\mathbf{m}_100$$, where each $$\mathbf{m}$$ is a 3 dimensional vector.
+At each location, rotate the 3 axes magnetic sensor in a 5 cm diameter circle by a stepper motor with 100 steps per rotation to get $$\mathbf{m}_1,...,\mathbf{m}_{100}$$, where each $$\mathbf{m}$$ is a 3 dimensional vector.
 
 Simulate $$k$$ sensors evenly spaced in circumference, where $$k$$ is an divisor of 100, e.g. 50, 20, 4.
 
