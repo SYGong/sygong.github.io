@@ -4,7 +4,7 @@ tags: [fingerprint]
 categories: "position"
 ---
 
-## Published
+## Published in
 MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
 
 ## Digest
@@ -20,7 +20,7 @@ Simulate $$k$$ sensors evenly spaced in circumference, where $$k$$ is an divisor
 ### Positioning
 Use root mean square (RMS).
 
-## Evaluation
+## Evaluation of
 
 ### Number of sensors
 - Location error vs fingerprint feature numbers
