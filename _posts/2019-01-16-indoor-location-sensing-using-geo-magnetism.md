@@ -28,3 +28,7 @@ Use root mean square (RMS).
 ### Location error
 - Histogram (proportion vs. error) 
 - Cumulative distribution function
+
+## Links
+- [Article](https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf) 
+- [Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
