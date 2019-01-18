@@ -54,3 +54,5 @@ Not sure details of RMSE
 - [Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
 
 [article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
+
+*[RMSE]: Root Mean Square Error
