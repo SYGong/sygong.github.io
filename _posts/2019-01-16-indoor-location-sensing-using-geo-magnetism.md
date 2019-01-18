@@ -43,7 +43,7 @@ This is a average cosine similarity of each pair of vector, can we use $$\mathit
 - Magnitude
 
 ### Effect of moving objects
-- RMSE vs distance to object (e.g. elevator, laptop)
+- RMSE vs. distance to object (e.g. elevator, laptop)
 
 {::comment}
 Not sure details of RMSE
