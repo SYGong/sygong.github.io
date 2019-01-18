@@ -21,7 +21,7 @@ Simulate $$k$$ sensors evenly spaced in circumference, where $$k$$ is an divisor
 {: .notice}
 
 ### Positioning
-Least root mean square (RMS) based Nearest Neighborhood:.
+Least RMS based Nearest Neighborhood:.
 
 ## Evaluation of
 
@@ -30,7 +30,7 @@ Least root mean square (RMS) based Nearest Neighborhood:.
 
 ### Location error
 - Histogram (proportion vs. error) 
-- Cumulative distribution function
+- CDF
 
 ### Temporally stablility
 - Cosine similarity
@@ -55,4 +55,6 @@ Not sure details of RMSE
 
 [article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
 
+*[RMS]: Root Mean Square
 *[RMSE]: Root Mean Square Error
+*[CDF]: Cumulative Distribution Function
