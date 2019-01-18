@@ -33,7 +33,7 @@ Least root mean square (RMS).
 - Cumulative distribution function
 
 ### Temporally stablility
-- Cosine Similarity
+- Cosine similarity
 - Magnitude
 
 ## Links
