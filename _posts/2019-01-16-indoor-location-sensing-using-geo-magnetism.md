@@ -34,6 +34,7 @@ Least root mean square (RMS) based Nearest Neighborhood:.
 
 ### Temporally stablility
 - Cosine similarity
+
 {::comment}
 $$\mathit(CosineSimilarity)(A, B) = \frac{1}{n} \sum_{i=1}{n} \frac{A_i B_i}{\left\Vert A_i \right\Vert \left\Vert B_i \right\Vert}$$, where ... 
 
