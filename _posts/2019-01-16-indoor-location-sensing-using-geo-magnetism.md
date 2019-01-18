@@ -17,8 +17,11 @@ At each location, rotate the 3 axes magnetic sensor in a 5 cm diameter circle by
 
 Simulate $$k$$ sensors evenly spaced in circumference, where $$k$$ is an divisor of 100, e.g. 50, 20, 4.
 
+**Note:** [Original paper](article_link) let $$k$$ denotes common denominator, which does not make sense.
+{: .notice}
+
 ### Positioning
-Use root mean square (RMS).
+Least root mean square (RMS).
 
 ## Evaluation of
 
@@ -29,6 +32,12 @@ Use root mean square (RMS).
 - Histogram (proportion vs. error) 
 - Cumulative distribution function
 
+### Temporally stablility
+- Cosine Similarity
+- Magnitude
+
 ## Links
-- [Article](https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf) 
+- [Article][article_link]
 - [Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
+
+[article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
