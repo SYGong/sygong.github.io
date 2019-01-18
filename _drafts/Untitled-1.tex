@@ -1,0 +1,29 @@
+\chapter{INTRODUCTION}
+
+Global Positioning System (GPS) is widely used outdoor, but it can not provide good indoor localization \cite{pulkkinen2011semi, varshavsky2007gsm}. To tackle this problem, many techniques have been developed. 
+
+One intuitive approach is multi-lateration like GPS. Similar to the GPS, we needs to measure distance from a device to several "indoor satellites", \cite{hu2013pharos} uses LED lights and use BFSK (binary frequency shift keying) modulation to beaconing light bulb's position to receiver. The problem is, this system is highly rely on visible light. So user with their phone must hold their phone face up to get at singal from 3 bulbs. What ever block the light, ie. Wall, curtain, clothes etc, will also impact the localization. That requires a dense placement of such beaconing bulbs and have each setup carefully (position, channel etc). Another problem is although LED lights are pretty popular, the modulation needs extra hardware. Light pollution and other health related impacts are yet to be accessed.  \cite{whitehouse2007practical} use received signal strength (RSS) to estimate the distance from receiver (ex. cellphone) to transmitter (ex. Wi-Fi Access point). However this approach still requires very specific environment (certain vegetation and etc.) and device installment (including but not limit to elevation and transmission power adjustment). 
+
+but use other signal that is available indoor.
+
+ 
+One of the categories is called fingerprinting. A fingerprint is a list of values that is location sensitive. For example, \cite{chung2011indoor} uses array of e-compasses to get geo-magnetism as fingerprint. It requires  Typical fingerprinting algorithms have two phases: training phase and positioning phase. In training phase, samples gathered in many places, one sample has one fingerprint and its location. In positioning phase, guess a new fingerprint's location by comparing it to fingerprints we collected in training phase. 
+
+Current 
+
+
+\cite{varshavsky2007gsm} uses GSM signals as fingerprint. 
+
+\cite{bahl2000radar} use use signals from 3 base stations as fingerprint,
+
+\cite{brunato2005statistical} use SVM (support vector machine)
+
+\cite{pulkkinen2011semi}semi-supervised manifold learning technique, what is the difference? 
+
+CSI Deep learning
+
+\cite{chen2012fm} use FM signal as fingerprint
+
+visual
+
+has higher power consumption
