@@ -21,7 +21,7 @@ Simulate $$k$$ sensors evenly spaced in circumference, where $$k$$ is an divisor
 {: .notice}
 
 ### Positioning
-Least root mean square (RMS).
+Least root mean square (RMS) based Nearest Neighborhood:.
 
 ## Evaluation of
 
@@ -34,7 +34,19 @@ Least root mean square (RMS).
 
 ### Temporally stablility
 - Cosine similarity
+{::comment}
+$$\mathit(CosineSimilarity)(A, B) = \frac{1}{n} \sum_{i=1}{n} \frac{A_i B_i}{\left\Vert A_i \right\Vert \left\Vert B_i \right\Vert}$$, where ... 
+
+This is a average cosine similarity of each pair of vector, can we use $$\mathit(CosineSimilarity)(A, B) = <A, B>_F{\left\Vert A \right\Vert_F \left\Vert B \right\Vert_F}$$ where $$<A, B>_F$$ is Frobenius norm? 
+{:/comment}
 - Magnitude
+
+### Effect of moving objects
+- RMSE vs distance to object (e.g. elevator, laptop)
+
+{::comment}
+Not sure details of RMSE
+{:/comment}
 
 ## Links
 - [Article][article_link]
