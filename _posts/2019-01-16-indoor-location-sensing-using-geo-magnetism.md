@@ -4,6 +4,11 @@ tags: [fingerprint]
 categories: "position"
 ---
 
+## Links
+[Article][article_link]
+/
+[Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
+
 ## Published in
 MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
 
@@ -15,10 +20,6 @@ Least RMS based Nearest Neighborhood.
 
 **Note:** [Article](article_link) uses RMS a lot, however it does not calculate arithmetic mean of the squares (refer to Equation 1).
 {: .notice}
-
-## Links
-- [Article][article_link]
-- [Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
 
 [article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
 
