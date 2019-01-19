@@ -35,15 +35,19 @@ Essentially just least squares of each axes? From equation 1 we can tell they do
 ### Location error
 
 {::comment}
-These two are for corridor, where data collected in a line
+for a corridor, where data collected in a line. under 3.1 The Observed Characteristics of Indoor
+Magnetic Fields
 - Confusion matrix of RMS errors (ground truth postiion vs. predicted position)
-- Least RMS errors (ground truth postiion vs. predicted position)
 {:/comment}
+- Least RMS errors (ground truth postiion vs. predicted position)
 - Histogram (proportion vs. distance error) 
 - CDF of distance error
 
+**Note:** Distance error is the distance between ground truth postiion and predicted position.
+{: .notice}
+
 ### Number of sensors
-- RMS error vs fingerprint feature numbers
+- Distance error vs. number of simulated sensors $$k$$ (number of fingerprint features).
 
 ### Temporally stablility
 - Cosine similarity
@@ -56,7 +60,7 @@ This is a average cosine similarity of each pair of vector, can we use $$\mathit
 - Magnitude
 
 ### Effect of moving objects
-- RMSE vs. distance to object (e.g. elevator, laptop)
+- RMS errors vs. distance to object (e.g. elevator, laptop)
 
 {::comment}
 Not sure details of RMSE
