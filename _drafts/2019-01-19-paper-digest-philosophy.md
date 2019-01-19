@@ -16,7 +16,9 @@ Solving LeetCode problems is inevitable for someone who want to ace software int
    - I am not sure if it is the best thing to publish 
 3. Make sense, short is better
 
-Move on, at least it is for my thesis. SOme paper has very good formula, some of them not.
+Move on, at least it is for my thesis. Some paper has very good formula, some of them not.
+
+The structure I currently have is messy, but that is something to base on the original structure is another thing
 
 Focusing on one solution that is best of the best. Best variants are provided, with different trade-offs. 
 
