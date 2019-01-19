@@ -8,7 +8,13 @@ categories: "position"
 MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
 
 ## Digest
-**Positioning system** using **disturbances of the earth's magnetic field caused by structural steel elements** as **fingerprints** that are **spatially varying** but **temporally stable**.
+**[Positioning](#positioning) system** using **disturbances of the earth's magnetic field caused by structural steel elements** as **fingerprints** that are **spatially varying** but **temporally stable**.
+
+### Positioning
+Least RMS based Nearest Neighborhood.
+
+**Note:** [Article](article_link) uses RMS a lot, however it does not calculate arithmetic mean of the squares (refer to Equation 1).
+{: .notice}
 
 ## Links
 - [Article][article_link]
