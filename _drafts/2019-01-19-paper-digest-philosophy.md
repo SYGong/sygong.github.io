@@ -18,7 +18,8 @@ Solving LeetCode problems is inevitable for someone who want to ace software int
 
 Move on, at least it is for my thesis. Some paper has very good formula, some of them not.
 
-The structure I currently have is messy, but that is something to base on the original structure is another thing
+The structure I currently have is messy, but that is something to base on the original structure is another thing.
+I can use the structure of abstract or digest
 
 Focusing on one solution that is best of the best. Best variants are provided, with different trade-offs. 
 
