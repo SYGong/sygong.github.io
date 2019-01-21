@@ -16,9 +16,9 @@ categories: "position"
 Localization with LED bulbs. Each bulb broadcasting its own postion to receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
 
 ### Optical channel model
-Given received energy, estimate distance between reciever's light sensor and the LED bulb.
+Given received energy, estimate distance between receiver's light sensor and the LED bulb.
 
-**Note:** Overall energy estimated by some components of energy and the bulb's duty cycle of PWM.
+**Note:** Overall energy is estimated, given some components of energy and the bulb's duty cycle of PWM.
 {: .notice}
 
 #### Assumptions
