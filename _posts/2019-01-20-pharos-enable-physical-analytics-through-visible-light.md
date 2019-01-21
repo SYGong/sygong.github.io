@@ -13,12 +13,12 @@ categories: "position"
 - HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 
 ## Digest
-Localization through multilateration with LED bulbs. Each bulb broadcasting its own postion to receiver, who will estimate distance to each bulb by optical channel model. 
+Localization with LED bulbs. Each bulb broadcasting its own postion to receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
 
 ### Optical channel model
-Given RSS, estimate distance between reciever's light sensor and LED bulb.
+Given received energy, estimate distance between reciever's light sensor and the LED bulb.
 
-**Note:** Estimating the overall RSS with some components of RSS and the bulb's duty cycle of PWM.
+**Note:** Overall energy estimated by some components of energy and the bulb's duty cycle of PWM.
 {: .notice}
 
 #### Assumptions
@@ -30,4 +30,4 @@ Given RSS, estimate distance between reciever's light sensor and LED bulb.
 
 *[LED]: Light-emitting Diode
 *[PWM]: Pulse Width Modulation
-*[RSS]: Cumulative Distribution Function
+*[RSS]: Received Signal Strength
