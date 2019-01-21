@@ -13,7 +13,7 @@ categories: "position"
 - HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 
 ## Digest
-**[Localization](#localization-algorithm) with LED bulbs**. Each bulb broadcasting its own postion to receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
+**[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
 
 ### Optical channel model
 Given received energy, estimate distance between receiver's light sensor and the LED bulb.
@@ -32,9 +32,10 @@ Use BFSK for modulation to broadcast each LED bulb's
 - duty cycle of PWM
 
 ### Localization algorithm
-Receiver observes $$k$$ LED bulbs, where $$k \ge 3$$. Use
-- Newton's method, when $$k = 3$$, or
-- LMS method, when $$k > 3$$.
+- Newton's method, when $$n = 3$$
+- LMS method, when $$n > 3$$
+
+Where $$n$$ is number LED bulbs observed.
 
 [article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
 
