@@ -18,13 +18,29 @@ Localization with LED bulbs. Each bulb broadcasting its own postion to receiver,
 ### Optical channel model
 Given received energy, estimate distance between receiver's light sensor and the LED bulb.
 
+{::comment}
 **Note:** Overall energy is estimated, given some components of energy and the bulb's duty cycle of PWM.
 {: .notice}
+
+{:/comment}
 
 #### Assumptions
 - Lambertian radiation pattern.
 - All LED lights facing downward.
 - Light sensor facing squarely upward.
+
+{::comment}
+### BFSK for beaconing
+LED light bulb's
+- Position.
+- Duty cycle of PWM $$\alpha$$.
+
+### Multilateration
+Receiver needs to observe $$k$$ LED lights, where $$k \ge 3$$. Use
+- Newton's method, when $$k = 3$$
+- LMS method, when $$k > 3$$
+
+{:/comment}
 
 [article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
 
