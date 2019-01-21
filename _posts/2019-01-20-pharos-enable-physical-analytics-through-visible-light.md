@@ -27,12 +27,12 @@ Given RSS, estimate distance from receiver to LED lights.
 - Light sensor facing squarely upward.
 
 ### Multilateration
-Need to observe 3 or more LED lights.
-- Newton's method for 3 
-- LMS for overdetermined
+A light sensor needs to observe $$k$$ LED lights, where $$k \ge 3$$
+- Newton's method, when $$k = 3$$
+- LMS, when $$k > 3$$
 
 [article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
 
 *[LED]: Light-emitting Diode
-*[PWM]: Light-emitting Diode
+*[PWM]: Pulse Width Modulation
 *[RSS]: Cumulative Distribution Function
