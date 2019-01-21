@@ -18,7 +18,7 @@ Localization through multilateration with LED lights. Each LED light bulb uses B
 ### BFSK
 To beaconing LED light bulb's
 - Position.
-- Duty cycle of PWM $$\alpha$$.
+-  $$\alpha$$.
 
 ### Optical channel model
 Given RSS, estimate distance from receiver to LED lights.
@@ -28,7 +28,7 @@ Given RSS, estimate distance from receiver to LED lights.
 - All LED lights facing downward.
 - Light sensor facing squarely upward.
 
-**Note:** Estimating the overall RSS with some component of RSS and $$\alpha$$.
+**Note:** Estimating the overall RSS with some component of RSS and duty cycle of PWM $$\alpha$$ (also beaconed by BFSK).
 {: .notice}
 
 ### Localization
