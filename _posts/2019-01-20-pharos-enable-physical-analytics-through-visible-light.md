@@ -13,23 +13,28 @@ categories: "position"
 - HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 
 ## Digest
-Using visible LED lights for localization develop optical channel model to estimate distance, BFSK and channel hopping  
+Localization through multilateration with LED lights. Each LED light bulb uses BFSK modulation to beaconing its position. Optical channel model estimates distance between a light sensor and LED lights.
 
-### Multilateration
+### BFSK
+To beaconing LED light bulb's
+- Position.
+- Duty cycle of PWM $$\alpha$$.
 
 ### Optical channel model
-Given RSS, estimate distance from revceiver to LED lights.
+Given RSS, estimate distance from receiver to LED lights.
 
 #### Assumptions
-- Lambertian radiation pattern
+- Lambertian radiation pattern.
 - All LED lights facing downward.
 - Light sensor facing squarely upward.
 
-### BFSK for communication
-Beaconing LED light bulb's position.
-
-**Note:** Because of PWM, the duty cycle $$\alpha$$.
+**Note:** Estimating the overall RSS with some component of RSS and $$\alpha$$.
 {: .notice}
+
+### Localization
+Need to observe 3 or more LED lights.
+- Newton's method for 3 
+- LMS for overdetermined
 
 [article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
 
