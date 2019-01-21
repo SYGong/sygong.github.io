@@ -6,7 +6,7 @@ categories: LeetCode
 
 ## Introduction
 
-Solving LeetCode problems is inevitable for someone who want to ace software interview. But I want to do a little bit more by posting my own solution and wish it can help not only myself but others. This post will discuss the way each post presented and reasons behind it.   
+
 
 ## Structure of each post
 
@@ -21,21 +21,7 @@ Move on, at least it is for my thesis. Some paper has very good formula, some of
 The structure I currently have is messy, but that is something to base on the original structure is another thing.
 I can use the structure of abstract or digest
 
-Focusing on one solution that is best of the best. Best variants are provided, with different trade-offs. 
-
-I am doing all the research so you don't have to, and you have the best to go, you don't even need to choose different approaches because life is too short. 
 
 ## Principles
  
- 
 
-Variants
-   1. Improvements in performance
-      - 
-      - Better performance but may not worth efforts
-      - Great performance but hard to implement in interview
-      - Extra backgound knowledge 
-   2. Alternative approach 
-   3. Some cheating results
-   4. Generalizaion
-   5. 
