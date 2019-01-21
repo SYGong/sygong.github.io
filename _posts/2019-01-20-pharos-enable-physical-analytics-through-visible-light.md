@@ -15,23 +15,18 @@ categories: "position"
 ## Digest
 Localization through multilateration with LED lights. Each LED light bulb uses BFSK modulation to beaconing its position. Optical channel model estimates distance between a light sensor and LED lights.
 
-### BFSK
-To beaconing LED light bulb's
-- Position.
--  $$\alpha$$.
-
 ### Optical channel model
 Given RSS, estimate distance from receiver to LED lights.
+
+**Note:** Estimating the overall RSS from one LED bulb with some component of RSS and $$\alpha$$, where $$\alpha$$ is the bulb's duty cycle of PWM and beaconed by BFSK.
+{: .notice}
 
 #### Assumptions
 - Lambertian radiation pattern.
 - All LED lights facing downward.
 - Light sensor facing squarely upward.
 
-**Note:** Estimating the overall RSS with some component of RSS and duty cycle of PWM $$\alpha$$ (also beaconed by BFSK).
-{: .notice}
-
-### Localization
+### Multilateration
 Need to observe 3 or more LED lights.
 - Newton's method for 3 
 - LMS for overdetermined
