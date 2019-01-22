@@ -49,8 +49,8 @@ where $$n$$ is number LED bulbs observed.
 ## Evaluation
 
 - Compared to two LED based algorithm 
-   - locates a receiver to the position of the light source with the highest RSS.
-   - locates a receiver as the weighted average of the locations of the observed bulbs, using their RSS as weights.
+   - Locates a receiver to the position of the light source with the highest RSS.
+   - Locates a receiver as the weighted average of the locations of the observed bulbs, using their RSS as weights.
 
 - Compared to Wi-Fi based systems in terms of
    - Accuracy
