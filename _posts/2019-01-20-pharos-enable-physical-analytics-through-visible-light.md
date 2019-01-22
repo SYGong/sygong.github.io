@@ -4,13 +4,13 @@ tags: []
 categories: "position"
 ---
 
-## Links
+## Published in
+- HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
+
+### Online copies
 [Article][article_link]
 /
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
-
-## Published in
-- HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 
 ## Digest
 **[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to a receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
@@ -21,7 +21,7 @@ Given received energy, estimate distance between a receiver's light sensor and t
 **Note:** Overall energy is estimated, given some components of energy and the [broadcasted](#broadcast) duty cycle of PWM.
 {: .notice}
 
-Assumptions
+Assumptions:
 - Lambertian radiation pattern.
 - All bulbs facing downward.
 - Light sensor facing squarely upward.
@@ -31,7 +31,12 @@ Use BFSK for modulation to broadcast each LED bulb's
 - position
 - duty cycle of PWM
 
-Channelization and random channel hopping
+#### Handle conlis
+Channelization and random channel hopping. 
+Overall spectrum is bounded by 
+- minimum frequency to prevent human perceivable flickering 
+- minimum of LED bulb’s On/Off speed 
+- response speed of the light sensor on the receiver
 
 ### Localization algorithm
 - Newton's method, when $$n = 3$$
