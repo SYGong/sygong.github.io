@@ -13,7 +13,7 @@ categories: "position"
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
 ## Synopsis
-**[Localization](#localization-algorithm) with LED bulbs**. Each bulb use **[BFSK to broadcast](#broadcast)** its own postion to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
+**[Localization](#localization-algorithm) with LED bulbs**. Each bulb **use [BFSK to broadcast](#broadcast)** its own postion to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
 
 ## Optical channel model
 Given RSS, estimate distance between a receiver's light sensor and the bulb.
@@ -48,9 +48,9 @@ where $$n$$ is number LED bulbs observed.
 
 ## Evaluation
 
-- Compared to two LED based algorithm 
-   - Locates a receiver to the position of the light source with the highest RSS.
-   - Locates a receiver as the weighted average of the locations of the observed bulbs, using their RSS as weights.
+- Compared to LED based algorithms that locate receiver to
+   - position of the light source with the highest RSS, or
+   - weighted average of the locations of the observed bulbs, using their RSS as weights.
 
 - Compared to Wi-Fi based systems in terms of
    - Accuracy
