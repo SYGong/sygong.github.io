@@ -22,14 +22,14 @@ Least RMS based Nearest Neighborhood.
 {: .notice}
 
 ## Storyline
-This paper organize as a story with 3 majoy acts:
+This paper organize as a story with 3 major acts:
 - *The Observed Characteristics of Indoor Magnetic Fields* (3.1)
 - *Initial Investigation for the System Design* (3.2)
 - *System for Pedestrian Localization* (4)
 
-Each one has its motivation, desgin (hardware, algorithm or experiment), and findings/result/evaluation that lead to next phase.
+Each one has its motivation, desgin (hardware, algorithm or experiment), and findings/result/evaluation that lead to next act.
 
-There are also other acts such as *stability over time* or *effect of moving objects* (4.2.2).
+Scenes like *stability over time* or *effect of moving objects* (4.2.2) making the story solid.
 
 [article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
 
