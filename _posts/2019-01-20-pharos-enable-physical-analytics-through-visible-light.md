@@ -16,9 +16,9 @@ categories: "position"
 **[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to a receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
 
 ## Optical channel model
-Given received energy, estimate distance between a receiver's light sensor and the bulb.
+Given RSS, estimate distance between a receiver's light sensor and the bulb.
 
-**Note:** Overall energy is estimated, given some components of energy and the [broadcasted](#broadcast) duty cycle of PWM.
+**Note:** Overall RSS is estimated, given some components of RSS and the [broadcasted](#broadcast) duty cycle of PWM.
 {: .notice}
 
 ### Assumptions of model
