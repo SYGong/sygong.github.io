@@ -21,6 +21,11 @@ Least RMS based Nearest Neighborhood.
 **Note:** [Article](article_link) uses RMS a lot, however it does not calculate arithmetic mean of the squares (refer to Equation 1).
 {: .notice}
 
+### Storyline
+- Character
+- Experiment
+- Ped
+
 [article_link]: https://www.media.mit.edu/speech/papers/2011/positioning.systems.pdf
 
 *[RMS]: Root Mean Square
