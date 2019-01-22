@@ -28,23 +28,22 @@ Given RSS, estimate distance between a receiver's light sensor and the bulb.
 
 ## Broadcast
 Use BFSK for modulation to broadcast each LED bulb's
-- position
-- duty cycle of PWM
+- position, and
+- duty cycle of PWM.
 
 ### Mitigate collisions
 Random channel hopping.
 
 #### Channelization
 Whole available spectrum is bounded by 
-- minimum frequency to prevent human perceivable flickering 
-- minimum of LED bulb’s On/Off speed 
-- response speed of the light sensor on the receiver
+- minimum frequency to prevent human perceivable flickering, 
+- minimum of LED bulb’s On/Off speed, and
+- response speed of the light sensor on the receiver.
 
 ## Localization algorithm
-- Newton's method, when $$n = 3$$.
+Let $$n$$ denotes number LED bulbs observed. Use
+- Newton's method, when $$n = 3$$;
 - LMS method, when $$n > 3$$.
-
-where $$n$$ is number LED bulbs observed.
 
 ## Evaluation
 
@@ -53,9 +52,9 @@ where $$n$$ is number LED bulbs observed.
    - weighted average of the locations of the observed bulbs, using their RSS as weights.
 
 - Compared to Wi-Fi based systems in terms of
-   - Accuracy
-   - Database usage
-   - Overhead
+   - accuracy,
+   - database usage, and
+   - overhead.
 
 [article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
 
