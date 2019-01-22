@@ -13,7 +13,7 @@ categories: "position"
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
 ## Synopsis
-**[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to a receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
+**[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to a receiver, who will estimate its distance to each bulb with [optical channel model](#optical-channel-model). 
 
 ## Optical channel model
 Given RSS, estimate distance between a receiver's light sensor and the bulb.
