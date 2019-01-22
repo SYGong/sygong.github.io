@@ -22,7 +22,7 @@ Least RMS based Nearest Neighborhood.
 {: .notice}
 
 ## Storyline
-This paper organize as a story with 3 major acts:
+[Article](article_link) has been organized as a story with 3 major acts:
 - *The Observed Characteristics of Indoor Magnetic Fields* (3.1)
 - *Initial Investigation for the System Design* (3.2)
 - *System for Pedestrian Localization* (4)
