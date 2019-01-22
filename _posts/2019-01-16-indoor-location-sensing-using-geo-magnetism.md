@@ -4,13 +4,13 @@ tags: [fingerprint]
 categories: "position"
 ---
 
-## Links
+## Published in
+- MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
+
+## Online copies
 [Article][article_link]
 /
 [Slides](https://sigmobile.org/mobisys/2011/slides/magnetism.pdf)
-
-## Published in
-- MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
 
 ## Digest
 **[Positioning](#positioning) system** using **disturbances of the earth's magnetic field caused by structural steel elements** as **fingerprints** that are **spatially varying** but **temporally stable**.
