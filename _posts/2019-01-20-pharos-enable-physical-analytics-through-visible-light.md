@@ -12,39 +12,41 @@ categories: "position"
 /
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
-## Digest
+## Synopsis
 **[Localization](#localization-algorithm) with LED bulbs**. Each bulb [broadcasting](#broadcast) its own postion to a receiver, who will estimate the distance to each bulb with [optical channel model](#optical-channel-model). 
 
-### Optical channel model
+## Optical channel model
 Given received energy, estimate distance between a receiver's light sensor and the bulb.
 
 **Note:** Overall energy is estimated, given some components of energy and the [broadcasted](#broadcast) duty cycle of PWM.
 {: .notice}
 
-Assumptions:
+### Assumptions of model
 - Lambertian radiation pattern.
 - All bulbs facing downward.
 - Light sensor facing squarely upward.
 
-### Broadcast
+## Broadcast
 Use BFSK for modulation to broadcast each LED bulb's
 - position
 - duty cycle of PWM
 
-#### Handle conlis
-Channelization and random channel hopping. 
-Overall spectrum is bounded by 
+### Mitigate collisions
+Random channel hopping.
+
+#### Channelization
+Whole available spectrum is bounded by 
 - minimum frequency to prevent human perceivable flickering 
 - minimum of LED bulb’s On/Off speed 
 - response speed of the light sensor on the receiver
 
-### Localization algorithm
+## Localization algorithm
 - Newton's method, when $$n = 3$$
 - LMS method, when $$n > 3$$
 
 where $$n$$ is number LED bulbs observed.
 
-### Evaluation
+## Evaluation
 
 - Compared to two LED based algorithm 
    - locates a receiver to the position of the light source with the highest RSS.
