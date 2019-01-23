@@ -1,11 +1,12 @@
 ---
-title: "Pharos: Enable Physical Analytics through Visible Light based Indoor Localization (2013)"
+title: "A Practical Evaluation of Radio Signal Strength for Ranging-based Localization (2007)"
 tags: []
 categories: "position"
 ---
 
 ## Published in
-- HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
+- Newsletter  
+ACM SIGMOBILE Mobile Computing and Communications 
 
 ### Online copies
 [Article][article_link]
