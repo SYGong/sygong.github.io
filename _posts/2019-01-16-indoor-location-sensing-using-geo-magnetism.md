@@ -5,7 +5,8 @@ categories: "position"
 ---
 
 ## Published in
-- MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
+- Proceeding  
+MobiSys '11 Proceedings of the 9th international conference on Mobile systems, applications, and services
 
 ### Online copies
 [Article][article_link]
