@@ -5,7 +5,8 @@ categories: "position"
 ---
 
 ## Published in
-- HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
+- Proceeding  
+HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 
 ### Online copies
 [Article][article_link]
