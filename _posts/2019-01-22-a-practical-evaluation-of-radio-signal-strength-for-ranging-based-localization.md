@@ -10,14 +10,19 @@ ACM SIGMOBILE Mobile Computing and Communications
 
 ### Online copies
 [Article][article_link]
-/
-[Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
 ## Synopsis
-**[Localization](#localization-algorithm) with LED bulbs**. Each bulb **use [BFSK to broadcast](#broadcast)** its own postion to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
+Radio signal strength (RSS) is notorious for being a noisy signal that is difficult to use for
+ranging-based localization. In this study, we demonstrate that RSS can be used to localize
+a multi-hop sensor network. quantify the effects of various environmental factors. However, we also show that
+this result is highly sensitive to subtle environmental factors such as the grass height, radio
+enclosure, and elevation of the nodes from the ground.
+
 
 ## Optical channel model
-Given RSS, estimate distance between a receiver's light sensor and the bulb.
+Noise is the standard deviation σ of all RSS values that may be observed at a particular distance in a
+Mobile Computing and Communications Review, Volume 1, Number 2 2
+given environment. 
 
 **Note:** Overall RSS is estimated, given some components of RSS and the [broadcasted](#broadcast) duty cycle of PWM.
 {: .notice}
@@ -57,7 +62,7 @@ Let $$n$$ denotes number LED bulbs observed. Use
    - database usage, and
    - overhead.
 
-[article_link]: https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final100.pdf
+[article_link]: http://www.chriskarlof.com/papers/whitehouse07practical.pdf
 
 *[LED]: Light-emitting Diode
 *[PWM]: Pulse Width Modulation
