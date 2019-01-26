@@ -12,7 +12,7 @@ ACM SIGMOBILE Mobile Computing and Communications
 [Article][article_link]
 
 ## Synopsis
-Quantify the effects of various environmental factors to RSS. Localization RSS ranging-based  multi-hop sensor network in some conditions.
+[Localize](#localization) nodes by linear RSS-to-distance model in multi-hop sensor network under some conditions. Quantify the effects of [various environmental factors](#environmental-factors) on the resulting localization error.
 
 ## Localization
 Each node use RSS to estimate distances to other nodes, find shortest path to each anchor whose position are given. Shortest path distances are then used for multilateration.
@@ -29,8 +29,13 @@ $$p(\mathit{measurement}| d)$$ weighted by the probability of finding a neighbor
 **Note:** [Article](article_link) does not explain what $$\Pi$$ is. They are probably assuming nodes' projection onto 2D plane follows uniform distribution so that the probability of finding a neighbor is proportional to the area of circle with radius $$d$$, i.e. proportional to $$\pi d^2$$. However this is not 
 {: .notice}
 
- However, we also show that this result is highly sensitive to subtle environmental factors such as the grass height, radio enclosure, and elevation of the nodes from the ground.
-
+## Environmental factors
+- Time
+- Elevation
+- Vegetation
+- Transmission power
+- Packaging
+- Indoor environment
 
 [article_link]: http://www.chriskarlof.com/papers/whitehouse07practical.pdf
 
