@@ -12,7 +12,7 @@ ACM SIGMOBILE Mobile Computing and Communications
 [Article][article_link]
 
 ## Synopsis
-[Localize](#localization) nodes by linear RSS-to-distance model in multi-hop sensor network under some conditions. Quantify the effects of [various environmental factors](#environmental-factors) on the resulting localization error.
+Use **multilateration** and **linear RSS-to-distance model** to [localize](#localization) nodes in multi-hop sensor network under some conditions. Quantify the effects of [various **environmental factors**](#environmental-factors) on the resulting localization error.
 
 ## Localization
 Each node use RSS to estimate distances to other nodes, find shortest path to each anchor whose position are given. Shortest path distances are then used for multilateration.
