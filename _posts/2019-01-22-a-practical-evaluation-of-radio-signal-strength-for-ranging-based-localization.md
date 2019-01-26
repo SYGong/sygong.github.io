@@ -24,9 +24,11 @@ Quantify the effects of environmental factors on RSS.
 
 - **attenuation rate**: Rate of decrease of RSS respect to distance.
 
-- **effective range**: Integral over the probability of making a RSS measurement at a particular distance $$p(measurement|d)$$ weighted by the probability of finding a neighbor at that distance $$\Pi d^2$$
+- **effective range**: Integral over the probability of making a RSS measurement at a particular distance 
+$$p(\mathit{measurement}| d)$$ weighted by the probability of finding a neighbor at that distance $$\Pi * d^2$$.
 
-
+**Note:** [Article](article_link) does not explain what $$\Pi$$ is. They are probably assuming nodes' projection onto 2D plane follows uniform distribution so that the probability of finding a neighbor is proportional to the area of circle with radius $$d$$, i.e. proportional to $$\pi d^2$$.
+{: .notice}
 
 Noise is the standard deviation σ of all RSS values that may be observed at a particular distance in a
 Mobile Computing and Communications Review, Volume 1, Number 2 2
@@ -47,47 +49,7 @@ measure a different distance.
 
 three characteristics
 
-**Note:** Overall RSS is estimated, given some components of RSS and the [broadcasted](#broadcast) duty cycle of PWM.
-{: .notice}
-
-### Assumptions of model
-- Lambertian radiation pattern.
-- All bulbs facing downward.
-- Light sensor facing squarely upward.
-
-## Broadcast
-Use BFSK for modulation to broadcast each LED bulb's
-- position, and
-- duty cycle of PWM.
-
-### Mitigate collisions
-Random channel hopping.
-
-#### Channelization
-Whole available spectrum is bounded by 
-- minimum frequency to prevent human perceivable flickering, 
-- minimum of LED bulb’s On/Off speed, and
-- response speed of the light sensor on the receiver.
-
-## Localization algorithm
-Let $$n$$ denotes number LED bulbs observed. Use
-- Newton's method, when $$n = 3$$;
-- LMS method, when $$n > 3$$.
-
-## Evaluation
-
-- Compared to LED based algorithms that locate receiver to
-   - position of the light source with the highest RSS, or
-   - weighted average of the locations of the observed bulbs, using their RSS as weights.
-
-- Compared to Wi-Fi based systems in terms of
-   - accuracy,
-   - database usage, and
-   - overhead.
 
 [article_link]: http://www.chriskarlof.com/papers/whitehouse07practical.pdf
 
-*[LED]: Light-emitting Diode
-*[PWM]: Pulse Width Modulation
 *[RSS]: Received Signal Strength
-*[BFSK]: Binary Frequency Shift Keying
