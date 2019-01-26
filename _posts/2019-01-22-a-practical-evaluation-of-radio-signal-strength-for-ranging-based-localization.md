@@ -12,12 +12,10 @@ ACM SIGMOBILE Mobile Computing and Communications
 [Article][article_link]
 
 ## Synopsis
-Quantify the effects of various environmental factors to RSS. localization RSS ranging-based  multi-hop sensor network in special environment and device setup.
+Quantify the effects of various environmental factors to RSS. Localization RSS ranging-based  multi-hop sensor network in some conditions.
 
-## Multi-hop
-in which nodes use RSS to estimate distances to other nodes and can
-localize themselves even while being multiple hops
-from the nearest anchor node.
+## Localization
+Each node use RSS to estimate distances to other nodes, find shortest path to each anchor whose position are given. Shortest path distances are then used for multilateration.
 
 ## Quantities
 Quantify the effects of environmental factors on RSS.
