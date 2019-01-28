@@ -28,7 +28,7 @@ Least RMS based Nearest Neighborhood.
 - *Initial Investigation for the System Design* (3.2)
 - *System for Pedestrian Localization* (4)
 
-Each one has its motivation, desgin (hardware, algorithm or experiment), and findings/result/evaluation that lead to next act.
+Each one has its motivation, design (hardware, algorithm or experiment), and findings/result/evaluation that lead to next act.
 
 Scenes like *stability over time* or *effect of moving objects* (4.2.2) making the story solid.
 
@@ -36,4 +36,4 @@ Scenes like *stability over time* or *effect of moving objects* (4.2.2) making t
 
 *[RMS]: Root Mean Square
 *[CDF]: Cumulative Distribution Function
-*[distance error]: distance between ground truth postiion and predicted position
+*[distance error]: distance between ground truth position and predicted position
