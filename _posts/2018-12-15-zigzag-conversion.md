@@ -45,4 +45,4 @@ $$O(l)$$, where $$l$$ is the length of `s`.
 ## Variants
 
 ### Iterate through `s`
-Make a list of strings, one for each row. Append each charater in `s` to proper string. [sample1](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-sort-by-row) [sample2](https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/)
+Make a list of strings, one for each row. Append each character in `s` to proper string. [sample1](https://leetcode.com/problems/zigzag-conversion/solution/#approach-1-sort-by-row) [sample2](https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/)

@@ -36,7 +36,7 @@ class Solution:
 Get a trie. [sample](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
 
 ### Binary search for prefix length
-This is more time comsuming, unless we can compare two string as fast as two characters (in python we can, sometimes). [sample](https://www.geeksforgeeks.org/longest-common-prefix-using-binary-search/)
+This is more time consuming, unless we can compare two string as fast as two characters (in python we can, sometimes). [sample](https://www.geeksforgeeks.org/longest-common-prefix-using-binary-search/)
 
 The length of shortest string will be the maximum length of common prefix. 
 {: .notice}

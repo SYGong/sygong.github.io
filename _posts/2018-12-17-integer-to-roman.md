@@ -50,7 +50,7 @@ I am lucky to get
 Iterate through decimal number `num`, map each digit, including `4` and `9`, to roman numeral in [many ways](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/). Inspired by those approaches, we can also get our `val_sym` computed instead of hard-coded.
 
 ### Replace certain pattern
-We can ignore substraction related rules while generating string `roman`, but dealt with those rules afterwards by replacing following patterns:
+We can ignore subtraction related rules while generating string `roman`, but dealt with those rules afterwards by replacing following patterns:
 
 |---------------------+--------------|
 | Replace             | by           |

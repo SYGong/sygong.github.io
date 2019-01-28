@@ -50,4 +50,4 @@ Initialize head at the first iteration. [sample](https://www.geeksforgeeks.org/a
 
 ### Further refactoring
 - Combine `eval_` and `next_`, or
-- initialize `curr_nodes = [dummy_head, l1, l2]` then do `curr_nodes = map(next_, curr_nodes)` at each interation.
+- initialize `curr_nodes = [dummy_head, l1, l2]` then do `curr_nodes = map(next_, curr_nodes)` at each iteration.
