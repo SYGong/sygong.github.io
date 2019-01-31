@@ -15,22 +15,17 @@ Nineteenth Annual Joint Conference of the IEEE Computer and Communications Socie
 ## Synopsis
 Combines empirical measurements with signal propagation modeling to determine user location.
 
-{::comment}
-## Fingerprint
-
-|---------------------------+----------------|
-| **Wide** fingerprint      | control groups |
-|---------------------------| -------------: |
-| **Up to 35 GSM channels** | 6-strongest GSM cells    | Single-strongest GSM cell |
-
-Two **narrow** and one **wide** kind of fingerprint.
-- Single-strongest GSM cell
-- 6-strongest GSM cells: used in the GSM standard.
-- The **wide**: includes readings from additional cells that are strong enough to be detected.
-
-**Note:** Instead of *channel* or *frequency*, [article](article_link) uses *cell*, although the later makes less sense. I could not verify that GSM standard is using 6-strongest cells as mentioned.
+**Note:** **empirical measurements** been referred by many other papers as **fingerprinting**.
 {: .notice}
-{:/comment}
+
+## Propagation
+Wall Attenuation Factor model.
+
+$$P(d_0)[\mathit{dB}m] = P(d)[\mathit{dB}m] - 10n\log{(\frac{d}{d_0})} - f(\mathit{nW}) * \mathit{WAF}$$
+
+
+**Note:** Theoretically $$n = 2$$.
+{: .notice}
 
 ## Localization
 K-nearest neighbors for fingerprint matching.
