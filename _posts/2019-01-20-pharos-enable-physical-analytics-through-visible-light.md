@@ -14,7 +14,7 @@ HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
 ## Synopsis
-Localization through [**multilateration**]((#multilateration)) with **LED bulbs**. Each bulb **uses [BFSK to broadcast](#broadcast)** its own position to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
+Localization through [**multilateration**](#multilateration) with **LED bulbs**. Each bulb **uses [BFSK to broadcast](#broadcast)** its own position to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
 
 ## Optical channel model
 Given RSS, estimate distance between a receiver's light sensor and the bulb.
