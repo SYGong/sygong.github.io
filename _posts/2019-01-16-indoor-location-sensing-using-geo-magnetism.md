@@ -17,7 +17,7 @@ MobiSys '11 Proceedings of the 9th international conference on Mobile systems, a
 **[Positioning](#positioning) system** using **disturbances of the earth's magnetic field** caused by structural steel elements as **fingerprints** that are **spatially varying** but **temporally stable**.
 
 ## Positioning
-Least RMS based Nearest Neighborhood.
+Least RMS based Nearest Neighborhood for **fingerprint** matching.
 
 **Note:** [Article](article_link) uses RMS a lot, however it does not calculate arithmetic mean of the squares (Equation 1).
 {: .notice}
