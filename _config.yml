@@ -76,3 +76,10 @@ comments:
     colorscheme: "light"
 
 og_image: /assets/images/moving_mountains.png
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
