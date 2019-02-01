@@ -13,19 +13,13 @@ Nineteenth Annual Joint Conference of the IEEE Computer and Communications Socie
 [Article][article_link]
 
 ## Synopsis
-Combines empirical measurements with [signal propagation modeling](#propagation) to determine user location.
+With signal strength information, combines **empirical measurements** and [signal propagation modeling](#propagation) to determine user location.
 
 **Note:** **empirical measurements** been referred by many other papers as **fingerprinting**.
 {: .notice}
 
 ## Propagation
 Wall Attenuation Factor model.
-
-$$P(d_0)[\mathit{dB}m] = P(d)[\mathit{dB}m] - 10n\log{(\frac{d}{d_0})} - f(\mathit{nW}) * \mathit{WAF}$$
-
-{::comment}
-$$(P(d_0) - P(d))[mW] = -10^n(\frac{d}{d_0})$$
-{:/comment}
 
 [article_link]: https://www.computer.org/csdl/proceedings/infcom/2000/5880/02/00832252.pdf
 
