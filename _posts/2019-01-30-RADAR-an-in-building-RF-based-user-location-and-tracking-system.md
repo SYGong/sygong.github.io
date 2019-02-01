@@ -11,15 +11,14 @@ Nineteenth Annual Joint Conference of the IEEE Computer and Communications Socie
 
 ### Online copies
 [Article][article_link]
+/
+[Slides](http://www-robotics.usc.edu/~gaurav/CS599-IES/StudentPres/19.ppt)
 
 ## Synopsis
-With signal strength information, combines **empirical measurements** and [signal propagation modeling](#propagation) to determine user location.
+Collect or compute signal strength **fingerprint** by **empirical measurements** or [**signal propagation modeling**](#propagation-model), respectively, to [determine user location](#localization).
 
-**Note:** **empirical measurements** been referred by many other papers as **fingerprinting**.
-{: .notice}
-
-## Propagation
-Wall Attenuation Factor model.
+## Search space
+## Propagation model
 
 [article_link]: https://www.computer.org/csdl/proceedings/infcom/2000/5880/02/00832252.pdf
 
