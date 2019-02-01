@@ -31,7 +31,7 @@ Two **narrow** and one **wide** kind of fingerprint.
 {:/comment}
 
 ## Localization
-K-nearest neighbors for fingerprint matching.
+K-nearest neighbors for **fingerprint** matching.
 
 [article_link]: http://sysweb.cs.toronto.edu/publication_files/0000/0017/varshavsky2007gsm.pdf
 
