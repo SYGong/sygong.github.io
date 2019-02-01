@@ -11,7 +11,7 @@ categories: "position"
 [Article][article_link]
 
 ## Synopsis
-Indoor [localization](#localization) with **wide** GSM signal strength fingerprint.
+Indoor [localization](#localization) with **wide GSM signal strength fingerprint**.
 
 {::comment}
 ## Fingerprint
