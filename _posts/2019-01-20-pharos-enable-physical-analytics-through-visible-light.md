@@ -42,12 +42,13 @@ Whole available spectrum is bounded by
 - response speed of the light sensor on the receiver.
 
 ## Localization algorithm
-Let $$n$$ denotes number LED bulbs observed. Use
+Localization through **multilateration** techniques.
+
 - Newton's method, when $$n = 3$$;
-- LMS method, when $$n > 3$$.
+- LMS method, when $$n > 3$$;
+where $$n$$ is number LED bulbs observed.
 
 ## Evaluation
-
 - Compared to LED based algorithms that locate receiver to
    - position of the light source with the highest RSS, or
    - weighted average of the locations of the observed bulbs, using their RSS as weights.
