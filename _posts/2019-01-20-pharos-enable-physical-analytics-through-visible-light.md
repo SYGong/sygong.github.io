@@ -14,7 +14,7 @@ HotNets-XII Proceedings of the Twelfth ACM Workshop on Hot Topics in Networks
 [Slides](https://pdfs.semanticscholar.org/6272/602dba3a4fc36c58a94a3bd9b3a6fd140100.pdf)
 
 ## Synopsis
-**[Localization](#localization-algorithm) with LED bulbs**. Each bulb **use [BFSK to broadcast](#broadcast)** its own position to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
+Localization through [**multilateration**]((#localization-algorithm)) with **LED bulbs**. Each bulb **uses [BFSK to broadcast](#broadcast)** its own position to a receiver, distance from which to each bulb will be estimated by **[optical channel model](#optical-channel-model)**. 
 
 ## Optical channel model
 Given RSS, estimate distance between a receiver's light sensor and the bulb.
@@ -41,11 +41,10 @@ Whole available spectrum is bounded by
 - minimum of LED bulb’s On/Off speed, and
 - response speed of the light sensor on the receiver.
 
-## Localization algorithm
-Localization through **multilateration** techniques.
-
+## Multilateration
 - Newton's method, when $$n = 3$$;
 - LMS method, when $$n > 3$$;
+
 where $$n$$ is number LED bulbs observed.
 
 ## Evaluation
