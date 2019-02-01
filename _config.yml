@@ -77,6 +77,8 @@ comments:
 
 og_image: /assets/images/moving_mountains.png
 
+logo: /assets/images/logo3.svg
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
