@@ -15,7 +15,7 @@ Nineteenth Annual Joint Conference of the IEEE Computer and Communications Socie
 [Slides](http://www-robotics.usc.edu/~gaurav/CS599-IES/StudentPres/19.ppt)
 
 ## Synopsis
-Collect or compute signal strength **fingerprint** by **empirical measurements** or [**signal propagation modeling**](#propagation-model), respectively, to [determine user location](#localization).
+To locate and track users inside buildings, collect or compute signal strength **fingerprint** by combining **empirical measurements** and [**signal propagation modeling**](#propagation-model).
 
 ## Search space
 ## Propagation model
