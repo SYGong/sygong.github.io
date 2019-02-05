@@ -6,12 +6,13 @@ One intuitive approach is multi-lateration like GPS. Similar to the GPS, we need
 
 \cite{whitehouse2007practical} use received signal strength (RSS) to estimate the distance from a receiver (e.g. cellphone) to a transmitter (e.g. Wi-Fi Access point). However this approach requires very specific environment (certain vegetation and etc.) and device installment (including but not limit to elevation and transmission power adjustment). 
 
-but use other signal that is available indoor.
-
+Other signal that is available indoor.
  
-One of the categories is called fingerprinting. A fingerprint is a list of values that is location sensitive. For example, \cite{chung2011indoor} uses array of e-compasses to get geo-magnetism as fingerprint. It requires  Typical fingerprinting algorithms have two phases: training phase and positioning phase. In training phase, samples gathered in many places, one sample has one fingerprint and its location. In positioning phase, guess a new fingerprint's location by comparing it to fingerprints we collected in training phase. 
+One of the categories is called fingerprinting. A fingerprint is a list of values that is location sensitive. For example, \cite{chung2011indoor} uses array of e-compasses to get geo-magnetism as fingerprint. It requires  
 
-Current 
+Typical fingerprinting algorithms have two phases: training phase and positioning phase. In training phase, samples gathered in many places, one sample has one fingerprint and its location. In positioning phase, guess a new fingerprint's location by comparing it to fingerprints we collected in training phase. 
+
+Current fingerprint 
 
 
 \cite{varshavsky2007gsm} uses GSM signals as fingerprint. 
@@ -29,3 +30,14 @@ CSI Deep learning
 visual
 
 has higher power consumption
+
+However, there are several problems with current fingerprinting localization so far. Need large training set to get good localization, it can be very expensive to do so. Not robust to infrastructure or environment changes, say fingerprints consist of Wi-Fi RSS, if remove or replace some of access points to new place, fingerprints change. It that case, localization is no more accurate until better training data obtained, which leads to more cost.
+
+What we can do to improve fingerprinting localization accuracy efficiently? How can we get same accuracy with less training fingerprints? How can we make localization be robust to changes? To answer the first two question, we use Fingerprint based Trajectory Reconstruction, For the 3rd question, we use Geometric base KNN localization using Sensor Dissimilarity Information to make a localization framework that is infrastructure-free, so it would minimize the need to retrain the system.
+Fingerprint based trajectory reconstruction
+
+While conventional fingerprinting methods try to locate a fingerprint by kNN, SVM or manifold regularization, Fingerprint based Trajectory Reconstruction takes historical fingerprints in to count. The intuition is, single fingerprint contains noise which will results inaccurate localization, so we use previously estimated position from the same device to prevent overfitting and have better localization.
+ 
+Geometric base KNN localization using Sensor Dissimilarity Information
+
+Conventional fingerprinting localization relies on location sensitive features, ideally those features can be obtained no matter when, where, which device we use. However that is not always true, in real life even we stay at the same place feature values may vary or totalling missing, those variations results inaccurate localization. In Geometric base KNN localization using Sensor Dissimilarity Information we assume some pairs of the devices can communicate with each other and dissimilarity measurement between them can be obtained, and the fingerprint for one device is the set of dissimilarity between its neighbors instead of a fixed set of features that hopefully measurable everywhere. To locate all devices, we assume location of some of the devices are known. We locate the rest devices by use kNN in a metric space with all devices embedded.
