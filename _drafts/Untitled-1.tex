@@ -4,9 +4,9 @@ Global Positioning System (GPS) is widely used outdoor, but it can not provide g
 
 One intuitive approach is multi-lateration like GPS. Similar to the GPS, we needs to measure distance from a device to several "indoor satellites". \cite{hu2013pharos} uses LED bulbs and visible light modulation to broadcast a light bulb's position to receiver, the receiver will estimate its distance to the bulb by a function of received signal strength (RSS). In practice, user with their phone must hold their phone face up to get signal from at least 3 bulbs, which requires dense bulb placement. Setup of one bulb is already expensive since you need to let the bulb know its accurate position. 
 
-\cite{whitehouse2007practical} use received signal strength (RSS) to estimate the distance from a receiver (e.g. cellphone) to a transmitter (e.g. Wi-Fi Access point). However this approach requires very specific environment (certain vegetation and etc.) and device installment (including but not limit to elevation and transmission power adjustment). 
+\cite{whitehouse2007practical} use received signal strength (RSS) to estimate the distance from a receiver (e.g. cellphone) to a transmitter (e.g. Wi-Fi Access point). However this approach requires very specific environment (certain vegetation and etc.) and device installment (including but not limit to elevation and transmission power adjustment), which is not always possible.
 
-Other signal that is available indoor. 
+In general the multi-lateration methods have difficulties to balance 2 factors 1)Cost of indoor satellites 2)Accuracy of distance estimation 
  
 One of the categories is called fingerprinting. A fingerprint is a list of values that is location sensitive. For example, \cite{chung2011indoor} uses array of e-compasses to get geo-magnetism as fingerprint. It requires  
 
