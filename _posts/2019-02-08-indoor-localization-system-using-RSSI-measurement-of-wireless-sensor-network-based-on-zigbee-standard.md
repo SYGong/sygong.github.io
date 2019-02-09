@@ -1,5 +1,5 @@
 ---
-title: "Indoor Localization System using RSSI Measurement of Wireless Sensor Network based on ZigBee Standard (2015)"
+title: "Indoor Localization System using RSSI Measurement of Wireless Sensor Network based on ZigBee Standard (2006)"
 tags: []
 categories: "position"
 ---
@@ -18,7 +18,7 @@ Indoor localization technique using RSSI in a sensor network to estimates the di
 - Maximum likelihood
 - MMSE
 
-**Note:** [article][article_link]'s implicitly assumption of normal distribution, which may not be true.
+**Note:** [article][article_link]'s implicit assumption of normal distribution is not necessarily true.
 {: .notice}
 
 [article_link]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.4355&rep=rep1&type=pdf
