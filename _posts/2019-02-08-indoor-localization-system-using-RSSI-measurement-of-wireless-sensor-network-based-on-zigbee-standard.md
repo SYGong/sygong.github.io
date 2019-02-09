@@ -22,7 +22,7 @@ Indoor [localization](#localization) technique **using RSSI** in a ZigBee sensor
 {: .notice}
 
 ## Distance
-RSSI $$p$$ (in $$\mathit{dB}m$$) is formulated as a function of distance $$d$$:
+RSSI $$p$$ (in $$\mathit{dB}m$$) is a function of distance $$d$$:
 
 $$\mathit{p} = \alpha\ln{d} + \beta$$.
 
