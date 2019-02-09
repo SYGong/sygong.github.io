@@ -5,7 +5,7 @@ categories: "position"
 ---
 
 ## Published in
-- International Journal on Wireless & Optical Communications    
+- International Journal on Wireless & Optical Communications    
 January 2006
 
 ### Online copies
