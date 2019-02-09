@@ -26,7 +26,7 @@ RSSI $$p$$ (in $$\mathit{dB}m$$) is formulated as a function of distance $$d$$:
 
 $$\mathit{p} = \alpha\ln{d} + \beta$$.
 
-**Note:** Not sure RSSI defined in IEEE 802.15.4 is in $$\mathit{dB}m$$.
+**Note:** Not sure ZigBee RSSI is in $$\mathit{dB}m$$.
 {: .notice}
 
 [article_link]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.4355&rep=rep1&type=pdf
