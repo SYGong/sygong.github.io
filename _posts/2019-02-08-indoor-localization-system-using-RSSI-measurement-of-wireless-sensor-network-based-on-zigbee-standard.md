@@ -23,4 +23,4 @@ Indoor localization technique using RSSI in a sensor network to estimates the di
 
 [article_link]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.4355&rep=rep1&type=pdf
 
-*[MMSE]: minimum mean square error
+*[MMSE]: Minimum Mean Square Error
