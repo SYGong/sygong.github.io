@@ -24,7 +24,7 @@ Quantify the effects of environmental factors on RSS.
 - **effective range**: Integral over the probability of making a RSS measurement at a particular distance 
 $$p(\mathit{measurement} | d)$$ weighted by the probability of finding a neighbor at that distance $$\Pi * d^2$$.
 
-**Note:** [Article](article_link) does not explain what $$\Pi$$ is. They are probably assuming nodes' projection onto 2D plane follows uniform distribution so that the probability of finding a neighbor is proportional to the area of circle with radius $$d$$, i.e. proportional to $$\pi d^2$$.
+**Note:** [Article](article_link) does not explain what $$\Pi$$ is. It is probably assuming nodes' projection onto 2D plane follows uniform distribution so that the probability of finding a neighbor is proportional to the area of circle with radius $$d$$, i.e. proportional to $$\pi d^2$$.
 {: .notice}
 
 ## Environmental factors
