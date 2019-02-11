@@ -28,6 +28,8 @@ $$\mathit{p} = \alpha\ln{d} + \beta$$.
 
 **Note:** Not sure ZigBee RSSI is in $$\mathit{dB}m$$.
 {: .notice}
+**Note:** $$\alpha$$ and $$\beta$$ vary in different place.
+{: .notice}
 
 [article_link]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.4355&rep=rep1&type=pdf
 
