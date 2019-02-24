@@ -15,7 +15,11 @@ ACM SIGMOBILE Mobile Computing and Communications
 Use [**RSS and multilateration to locate**](#localization) nodes in multi-hop sensor network under some conditions. [**Quantify**](#quantities) the effects of [**various environmental factors**](#environmental-factors).
 
 ## Localization
-Each node use **linear RSS-to-distance model** to estimate distances to other nodes, find shortest path to each anchor whose position is given. Shortest path distances are then used for **multilateration**.
+Each node use **linear RSS-to-distance model** to estimate distances to other nodes, find [shortest path](shortest-path) to each anchor whose position is given. Shortest path distances are then used for **multilateration**.
+
+### Shortest path
+- distance: DV-distance algorithm
+- APS
 
 ## Quantities
 Quantify the effects of environmental factors on RSS.
