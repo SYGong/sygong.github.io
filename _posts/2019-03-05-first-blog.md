@@ -4,6 +4,10 @@ tags: []
 categories: []
 ---
 
+## "Hello! Bye-bye!"
+
+That's it.
+
 {::comment}
 ### “你好！再见！”
 
@@ -19,10 +23,6 @@ categories: []
 
 要说的说完了，就在此停止。
 {:/comment}
-
-## "Hello! Bye-bye!"
-
-That's it.
 
 ## References
 1. [This Is Exactly What Your First Blog Post Should Be About](https://www.shoutmeloud.com/write-first-blog-post.html)
