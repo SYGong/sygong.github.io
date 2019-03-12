@@ -1,5 +1,5 @@
 ---
-title: " First Blog"
+title: "First Blog Post"
 tags: []
 categories: []
 ---
