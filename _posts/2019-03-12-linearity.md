@@ -14,7 +14,7 @@ Linearity refer to set of two properties:
 ### Linear function 
 Linear function $$f$$ satisfies:
 
-- Additivit:  
+- Additivity:  
 $$f(x + y) = f(x) + f(y)$$
 
 - Homogeneity of degree one:  
@@ -44,7 +44,7 @@ $$(f+g)(x) =  f(x) + g(x)$$
 
 $$(a \cdot f)(x) = a\ cdot f(x)$$
 
-Derevetibv
+Derivative
 {:/comment}
 
 ## References
