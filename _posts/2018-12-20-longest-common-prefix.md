@@ -30,7 +30,8 @@ class Solution:
 ## Variants
 
 ### Word by word
-[LeetCode][solution] call it horizontal scanning. [another sample on GeeksforGeeks](https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/)
+- [LeetCode][solution] call it horizontal scanning. 
+- Another [sample on GeeksforGeeks](https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/)
 
 ### Trie
 Get a trie. [sample](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
