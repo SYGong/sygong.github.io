@@ -12,7 +12,11 @@ Volume 31 Issue 3, May 2016
 ### Online copies
 [Article][article_link]
 
+{::comment}
+
 ## Synopsis
+
+Regularization framework with the spatiotemporal properties to .
 
 be reconstructed from the real-time fingerprint
 data that are obtained by the sensors built in the device.
@@ -66,10 +70,13 @@ MSE
 ### spatial smoothness in the fingerprint space
 
 
-### temporal smoothness
+### temporal smoothness (in the fingerprint space)
 valid locations is given, the reconstructed trajectory should
 be restricted to only these locations.
 
+### choice of regularization coefficients
+
+{:/comment}
 
 
 [article_link]: https://www.researchgate.net/profile/Ting_Zhang12/publication/283172835_A_regularization_framework_for_fingerprint-based_reconstruction_of_mobile_trajectories/links/5a56e11445851547b1bf2ebb/A-regularization-framework-for-fingerprint-based-reconstruction-of-mobile-trajectories.pdf
