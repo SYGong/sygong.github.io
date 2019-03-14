@@ -69,7 +69,7 @@ I am lucky to get
 ### Time Complexity
 $$O(n^2 log{n})$$, where $$n$$ is the number of numbers.
 - Binary search function `bisect` takes $$\log{n}$$. 
-- The range of last number is $$O(1)$$ since `curr_n` is `1` and `top[next_n]` is `0`. So given 2 numbers, find the last number takes $$\log{n}$$.
+- The range of last number is $$O(1)$$ since `curr_n` is `1` and `top[next_n]` is `0`. So given first 2 numbers, find the closest triplet takes $$\log{n}$$.
 
 {::comment}
 - It takes $$O(\log{n})$$ to find a $$O(n)$$ range in each `closest()` call (except last one).
