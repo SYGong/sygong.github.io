@@ -27,7 +27,7 @@ Note: in calculus $$f(x) = ax + b$$ is a linear function. Well, matrix (linear t
 {:/comment}
 
 ### Linear transformation
-$$V$$ and $$W$$ are vector spaces over field $$F$$, a linear transformation $$L: V \to W$$ satisfy:
+$$V$$ and $$W$$ are vector spaces over field $$F$$, a linear transformation $$L: V \to W$$ satisfies:
 
 #### Additivity
 $$L(\mathbf{u} + \mathbf{v}) = L(\mathbf{u}) + L(\mathbf{v})$$, where $$\mathbf{u}, \mathbf{v} \in V$$.
