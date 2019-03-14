@@ -67,10 +67,14 @@ I am lucky to get
 > Runtime: **52 ms**, faster than **98.13%** of Python3 online submissions for 3Sum Closest.
 
 ### Time Complexity
-$$O((n^2 log{n}))$$, where $$n$$ is the number of numbers.
-- Binary search function `bisect` takes $$\log{n}$$.
-- $$O(n + \log{n}) = O(n)$$
+$$O(n^2 log{n})$$, where $$n$$ is the number of numbers.
+- Binary search function `bisect` takes $$\log{n}$$. 
 - The range of last number is $$O(1)$$ since `curr_n` is `1` and `top[next_n]` is `0`. So given 2 numbers, find the last number takes $$\log{n}$$.
+
+{::comment}
+- It takes $$O(\log{n})$$ to find a $$O(n)$$ range in each `closest()` call (except last one).
+- For each candidate in such range we need to call `closest()` with `next_target`, so `closest(curr_target, ...)` takes $$O(n + \log{n}) = O(n)$$.
+{:/comment}
 
 ## Variants
 
