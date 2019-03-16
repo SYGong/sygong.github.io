@@ -19,9 +19,9 @@ RSSI $$p$$ (in $$\mathit{dB}m$$) is a function of distance $$d$$:
 
 $$\mathit{p} = \alpha\ln{d} + \beta$$.
 
-$$\alpha$$ and $$\beta$$ are computed by empirical RSSI and distance data using least-squares method.
-
 **Note:** Not sure ZigBee RSSI is in $$\mathit{dB}m$$.
+{: .notice}
+**Note:** $$\alpha$$ and $$\beta$$ are computed by empirical RSSI and distance data using least-squares method.
 {: .notice}
 **Note:** $$\alpha$$ and $$\beta$$ vary in different place. No model fits all situation.
 {: .notice}
