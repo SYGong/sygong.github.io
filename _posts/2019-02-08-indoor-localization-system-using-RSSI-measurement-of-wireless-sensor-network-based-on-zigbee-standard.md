@@ -27,10 +27,12 @@ $$\alpha$$ and $$\beta$$ are computed by empirical RSSI and distance data using 
 {: .notice}
 
 ## Localization
-Use
 - Maximum likelihood
 - MMSE
-minimizing the differences between the measured and estimated distances
+
+{::comment}
+minimizing the differences between model estimated and  distances.
+{:/comment}
 
 **Note:** implicit assumption of normal distribution.
 {: .notice}
