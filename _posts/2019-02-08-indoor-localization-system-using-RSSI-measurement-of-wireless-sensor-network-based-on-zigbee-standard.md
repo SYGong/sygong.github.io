@@ -12,24 +12,30 @@ January 2006
 [Article][article_link]
 
 ## Synopsis
-Indoor [localization](#localization) technique **using RSSI** in a ZigBee sensor network **to [estimates the distance](#distance)** between sensor nodes.  
-
-## Localization
-- Maximum likelihood
-- MMSE
-
-**Note:** [article][article_link]'s implicit assumption of normal distribution is not necessarily true.
-{: .notice}
+Indoor [localization](#localization) technique **using RSSI** in a ZigBee sensor network **to [estimates the distance](#distance)** between sensor nodes.
 
 ## Distance
 RSSI $$p$$ (in $$\mathit{dB}m$$) is a function of distance $$d$$:
 
 $$\mathit{p} = \alpha\ln{d} + \beta$$.
 
+$$\alpha$$ and $$\beta$$ are computed by empirical RSSI and distance data using least-squares method.
+
 **Note:** Not sure ZigBee RSSI is in $$\mathit{dB}m$$.
 {: .notice}
-**Note:** $$\alpha$$ and $$\beta$$ vary in different place.
+**Note:** $$\alpha$$ and $$\beta$$ vary in different place. No model fits all situation.
 {: .notice}
+
+## Localization
+Use
+- Maximum likelihood
+- MMSE
+minimizing the differences between the measured and estimated distances
+
+**Note:** implicit assumption of normal distribution.
+{: .notice}
+
+
 
 [article_link]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.4355&rep=rep1&type=pdf
 
