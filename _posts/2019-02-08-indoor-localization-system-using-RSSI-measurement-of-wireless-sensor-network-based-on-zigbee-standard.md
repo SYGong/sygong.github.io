@@ -12,7 +12,7 @@ January 2006
 [Article][article_link]
 
 ## Synopsis
-Indoor [localization](#localization) technique **using RSSI** in a ZigBee sensor network **to [estimates the distance](#distance)** between sensor nodes.
+Indoor [localization](#localization) technique **using RSSI** in a ZigBee sensor network to **[estimates the distance](#distance)** between sensor nodes.
 
 ## Distance
 RSSI $$p$$ (in $$\mathit{dB}m$$) is a function of distance $$d$$:
