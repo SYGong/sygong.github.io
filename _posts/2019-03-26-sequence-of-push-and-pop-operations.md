@@ -1,5 +1,5 @@
 ---
-title: "Linearity"
+title: "Stack Exercise: Sequence of Push and Pop Operations"
 tags: []
 categories: []
 ---
@@ -25,7 +25,7 @@ F: 1 can't be popped before 7 and 2
 G: 0 can't be popped before 2
 
 ### Algorithm
-It turns out, we can write algorithm to check a sequence
+It turns out, we can check a sequence by algorithm:
 ```python
 def good_pops(seq):
     stack = []
@@ -37,13 +37,12 @@ def good_pops(seq):
             j += 1
     return len(stack) == 0
 ```
-
 ```console
->>> seqa = [4, 3, 2, 1, 0, 9, 8, 7, 6, 5]
->>> good_pops(seqa)
+>>> seq_a = [4, 3, 2, 1, 0, 9, 8, 7, 6, 5]
+>>> good_pops(seq_a)
 True
->>> seqb = [4, 6, 8, 7, 5, 3, 2, 9, 0, 1]
->>> good_pops(seqb)
+>>> seq_b = [4, 6, 8, 7, 5, 3, 2, 9, 0, 1]
+>>> good_pops(seq_b)
 False
 ```
 
