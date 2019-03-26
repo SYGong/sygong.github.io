@@ -3,9 +3,12 @@ title: "Stack Exercise: Sequence of Push and Pop Operations"
 tags: []
 categories: []
 ---
+{::comment}
+My students asked me an interesting question about stack today, I show them
+{:/comment}
 
 ## Problem
-Suppose that an intermixed sequence of (stack) push and pop operations are performed. The pushes push the integers 0 through 9 in order; the pops print out the return value. Which of the following sequence(s) could not occur? [Possible origin](https://www.cs.princeton.edu/courses/archive/fall14/cos126/precepts/StackQueueEx.pdf_
+Suppose that an intermixed sequence of (stack) push and pop operations are performed. The pushes push the integers 0 through 9 in order; the pops print out the return value. Which of the following sequence(s) could not occur? [a possible origin](https://www.cs.princeton.edu/courses/archive/fall14/cos126/precepts/StackQueueEx.pdf)
 
 A. 4 3 2 1 0 9 8 7 6 5  
 B. 4 6 8 7 5 3 2 9 0 1  
@@ -47,4 +50,4 @@ False
 ```
 
 #### Time complexity
-$$O(N)$$, where $$N$$ is the number of elements to be pushed in the stack. Although there is a nested `while` loop, `pop()` will be executed equal or less than $$N$$ times.
+$$O(N)$$, where $$N$$ is the number of elements to be pushed into the stack. Although there is a nested `while` loop, `pop()` will be executed equal or less than $$N$$ times.
