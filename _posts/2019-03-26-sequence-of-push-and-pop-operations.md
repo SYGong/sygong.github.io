@@ -23,9 +23,9 @@ H. 2 1 4 3 6 5 8 7 9 0
 B, F, and G
 
 ### Explanation
-B: 0 is under 1, so 0 can not be popped before 1.
-F: 1 can't be popped before 7 and 2
-G: 0 can't be popped before 2
+B: 0 is under 1, so 0 can not be popped before 1.  
+F: 1 can't be popped before 7 and 2  
+G: 0 can't be popped before 2  
 
 ### Algorithm
 It turns out, we can check a sequence by algorithm:
