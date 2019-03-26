@@ -8,7 +8,7 @@ My students asked me an interesting question about stack today, I show them
 {:/comment}
 
 ## Problem
-Suppose that an intermixed sequence of (stack) push and pop operations are performed. The pushes push the integers 0 through 9 in order; the pops print out the return value. Which of the following sequence(s) could not occur? [a possible origin](https://www.cs.princeton.edu/courses/archive/fall14/cos126/precepts/StackQueueEx.pdf)
+Suppose that an intermixed sequence of (stack) push and pop operations are performed. The pushes push the integers 0 through 9 in order; the pops print out the return value. Which of the following sequence(s) could not occur? [possible origin](https://www.cs.princeton.edu/courses/archive/fall14/cos126/precepts/StackQueueEx.pdf)
 
 A. 4 3 2 1 0 9 8 7 6 5  
 B. 4 6 8 7 5 3 2 9 0 1  
