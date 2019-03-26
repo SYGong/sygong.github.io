@@ -29,12 +29,22 @@ It turns out, we can write algorithm to check a sequence
 ```python
 def good_pops(seq):
     stack = []
+    j = 0
     for i in range(10):
         stack.append(i)
         while len(stack) > 0 and stack[-1] == seq[j]:
             stack.pop()
             j += 1
     return len(stack) == 0
+```
+
+```console
+>>> seqa = [4, 3, 2, 1, 0, 9, 8, 7, 6, 5]
+>>> good_pops(seqa)
+True
+>>> seqb = [4, 6, 8, 7, 5, 3, 2, 9, 0, 1]
+>>> good_pops(seqb)
+False
 ```
 
 #### Time complexity
