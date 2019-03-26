@@ -22,7 +22,7 @@ H. 2 1 4 3 6 5 8 7 9 0
 ## Answer
 B, F, and G
 
-### Short explaination
+### Explanation
 B: 0 is under 1, so 0 can not be popped before 1.
 F: 1 can't be popped before 7 and 2
 G: 0 can't be popped before 2
