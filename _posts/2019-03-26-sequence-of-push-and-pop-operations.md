@@ -1,5 +1,5 @@
 ---
-title: "Stack Exercise: Sequence of Push and Pop Operations"
+title: "Stack: Sequence of Push and Pop Operations"
 tags: []
 categories: []
 ---
