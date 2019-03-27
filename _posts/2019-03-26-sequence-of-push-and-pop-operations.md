@@ -31,9 +31,10 @@ Suppose that an intermixed sequence of (stack) push and pop operations are perfo
 It turns out, we can check a sequence by algorithm:
 ```python
 def good_pops(seq):
+    n = len(seq)
     stack = []
     j = 0
-    for i in range(10):
+    for i in range(n):
         stack.append(i)
         while len(stack) > 0 and stack[-1] == seq[j]:
             stack.pop()
@@ -48,6 +49,23 @@ True
 >>> good_pops(seq_b)
 False
 ```
+{::comment}
+A dual solution is possible, consider `for` iterate the `seq`, `while`
+```python
+def good_pops_2(seq):
+    n = len(seq)
+    stack = []
+    i = 0
+    for v in seq:
+        while len(stack) == 0 or stack[-1] != seq[j]:
+            stack.append(i)
+            i += 1
+            if i > n:
+                return False
+        stack.pop()
+    return True
+```
+{:/comment}
 
 #### Time complexity
 $$O(N)$$, where $$N$$ is the number of elements to be pushed into the stack. Although there is a nested `while` loop, `pop()` will be executed equal or less than $$N$$ times.
