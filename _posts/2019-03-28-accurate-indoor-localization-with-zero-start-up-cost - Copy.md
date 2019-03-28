@@ -11,20 +11,20 @@ nsdi'13 Proceedings of the 10th USENIX conference on Networked Systems Design an
 ### Online copies
 [Article][article_link]
 /
-[Slides](https://slideplayer.com/slide/9213072/)
+[Slides](https://slideplayer.com/slide/10312369/)
 
 
 ## Synopsis
-Enables handheld devices to emulate large antenna arrays using a new formulation of SAR.
+Uses MIMO based techniques to track wireless clients.
 
 {::comment}
 Past work on SAR requires measuring mechanically controlled device movement with millimeter precision, far beyond what commercial accelerometers can provide.
 {:/comment}
 
 
-[article_link]: https://groups.csail.mit.edu/drl/wiki/images/6/6a/sgil_mobicom2014.pdf
+[article_link]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final51.pdf
 
-*[RSS]: Received Signal Strength
+*[MIMO]: Multiple-Input, Multiple-Output
 *[SAR]: Synthetic Aperture Radar
 *[SLAM]: Simultaneous Localization and Mapping
 *[MDS]: Multidimensional Scaling
