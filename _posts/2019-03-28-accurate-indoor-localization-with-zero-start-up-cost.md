@@ -10,6 +10,8 @@ MobiCom '14 Proceedings of the 20th annual international conference on Mobile co
 
 ### Online copies
 [Article][article_link]
+/
+[Slides](https://slideplayer.com/slide/9213072/)
 
 
 ## Synopsis
