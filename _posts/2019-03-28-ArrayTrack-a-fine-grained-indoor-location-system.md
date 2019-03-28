@@ -1,5 +1,5 @@
 ---
-title: "ArrayTrack: a fine-grained indoor location system (2013)"
+title: "ArrayTrack: a Fine-grained Indoor Location System (2013)"
 tags: []
 categories: "position"
 ---
