@@ -21,17 +21,15 @@ no solution provided
 
 class Solution:
     def searchBST(self, root: TreeNode, val: int) -> TreeNode:
-        if not root:
-            return None
-        elif val > root.val:
-            return self.searchBST(root.right, val)
-        elif val < root.val:
-            return self.searchBST(root.left, val)
-        else:
-            return root           
+        if root:
+            if val > root.val:
+                return self.searchBST(root.right, val)
+            elif val < root.val:
+                return self.searchBST(root.left, val)
+        return root           
 ```
 I am lucky to get
-> Runtime: **84 ms**, faster than **71.59%** of Python3 online submissions for Search in a Binary Search Tree.
+> Runtime: **80 ms**, faster than **86.81%** of Python3 online submissions for Search in a Binary Search Tree.
 
 ### Time Complexity
 $$O(h)$$, where $$h$$ is the height of the tree.
