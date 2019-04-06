@@ -21,17 +21,14 @@ mathjax: true
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        a = root.val - p.val
-        b = root.val - q.val
-        if a * b > 0:
-            if a > 0:
-                return self.lowestCommonAncestor(root.left, p, q)
-            else:
-                return self.lowestCommonAncestor(root.right, p, q)
-        return root          
+        if p.val < root.val and q.val < root.val:
+            return self.lowestCommonAncestor(root.left, p, q)
+        elif p.val > root.val and q.val > root.val:
+            return self.lowestCommonAncestor(root.right, p, q)
+        return root       
 ```
 I am lucky to get
 > Runtime: **88 ms**, faster than **72.89%** of Python3 online submissions for Lowest Common Ancestor of a Binary Search Tree.
 
 ### Time Complexity
-$$O(n)$$, where $$n$$ is the number of tree nodes.
+$$O(h)$$, where $$h$$ is the height the tree.
