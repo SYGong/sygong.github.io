@@ -31,7 +31,7 @@ I am lucky to get
 > Runtime: **88 ms**, faster than **72.89%** of Python3 online submissions for Lowest Common Ancestor of a Binary Search Tree.
 
 ### Time Complexity
-$$O(h)$$, where $$h$$ is the height the tree.
+$$O(h)$$, where $$h$$ is the height of the tree.
 
 **Note**: [Leetcode's solution][solution_link] says the complexity is $$O(n)$$, where $$n$$ is the number of nodes. Well, in the **worst** tree, $$O(h) = O(n)$$. 
 {: .notice}
