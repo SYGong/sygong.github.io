@@ -6,7 +6,9 @@ mathjax: true
 ---
 
 ## From LeetCode
-[problem description/sulution](https://leetcode.com/problems/shortest-distance-to-a-character/)
+[problem description](https://leetcode.com/problems/shortest-distance-to-a-character/)
+/
+[sulution](https://leetcode.com/problems/shortest-distance-to-a-character/solution/)
 
 ## Solution in Python3
 ```python
@@ -22,12 +24,12 @@ class Solution:
             shortest_dist.append(dist)
         
         dist = float('inf')
-        for i in range(len(S) - 1, -1 , -1):
-            if S[i] == C:
+        for c, i in enumerate(S[::-1]):
+            if c == C:
                 dist = 0
             else:
                 dist += 1
-            shortest_dist[i] = min(shortest_dist[i], dist)
+            shortest_dist[l - i] = min(shortest_dist[i], dist)
 
         return shortest_dist    
             
