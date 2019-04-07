@@ -26,4 +26,4 @@ I am lucky to get
 > Runtime: **36 ms**, faster than **70.82%** of Python3 online submissions for  Unique Binary Search Trees.
 
 ### Time Complexity
-$$O(n^2)$$ (pseudo-quadratic).
+$$O(n^2ln(n))$$.
