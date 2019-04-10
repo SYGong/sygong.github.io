@@ -23,10 +23,10 @@ class Solution:
         return nums[-1]     
 ```
 I am lucky to get
-> Runtime: **36 ms**, faster than **70.82%** of Python3 online submissions for  Unique Binary Search Trees.
+> Runtime: **36 ms**, faster than **70.82%** of Python3 online submissions for Unique Binary Search Trees.
 
 ### Time Complexity
-$$O(n^2log(n))$$.
+$$O(n^2\log^2(n))$$.
 
-**Note**: Multiplication takes $$\log{n}$$. 
+**Note**: Assume multiplication takes $$\log^2{n}$$. 
 {: .notice}
