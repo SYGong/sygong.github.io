@@ -14,7 +14,7 @@ no solution provided
 ```python
 class Solution:
     def numTrees(self, n: int) -> int:
-        nums = [1]   # 1 unique empty tree
+        nums = [1]   # One unique empty tree
         for i in range(1, n + 1):
             num = 0
             for j in range(i):
