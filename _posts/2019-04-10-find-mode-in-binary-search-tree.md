@@ -48,7 +48,7 @@ class Solution:
             
         return modes    
 ```
-**Note**: This traversal (In-order) of BST will visit values in ascending order. 
+**Note**: This (in-order) traversal of BST will visit values in ascending order. 
 {: .notice}
 
 I am lucky to get
