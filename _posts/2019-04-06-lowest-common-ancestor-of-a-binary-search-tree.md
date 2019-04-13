@@ -20,7 +20,7 @@ mathjax: true
 #         self.right = None
 
 class Solution:
-    def lowestCommonAncestor(
+    def lowestCommonAncestor(   
             self, 
             root: 'TreeNode', 
             p: 'TreeNode', 
