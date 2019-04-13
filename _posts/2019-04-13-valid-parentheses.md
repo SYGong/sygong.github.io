@@ -19,13 +19,13 @@ class Solution:
             '{': '}', 
             '[': ']'
         }
+
         stack = []
         for c in s:
             if c in pairs:
                 stack.append(c)
-            elif c in pairs.values():
-                if not stack or pairs[stack.pop()] != c:
-                    return False
+            elif not stack or pairs[stack.pop()] != c:
+                return False
         return not stack
 ```
 I am lucky to get
