@@ -6,7 +6,7 @@ mathjax: true
 ---
 
 ## From LeetCode
-[problem description](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+[problem description](https://leetcode.com/problems/valid-parentheses/)
 /
 [solution](https://leetcode.com/problems/valid-parentheses/solution/)
 
