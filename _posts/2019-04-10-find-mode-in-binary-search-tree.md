@@ -28,8 +28,7 @@ class Solution:
         
         def traverse(node):            
             if node:                
-                traverse(node.left)
-                
+                traverse(node.left)                
                 nonlocal curr_mode, curr_freq, modes, max_freq
                 if curr_mode != node.val: 
                     curr_mode = node.val
@@ -40,12 +39,10 @@ class Solution:
                     max_freq = curr_freq
                     modes = [curr_mode]             
                 elif curr_freq == max_freq:
-                    modes.append(curr_mode)
-                                        
+                    modes.append(curr_mode)                     
                 traverse(node.right)
         
-        traverse(root)
-            
+        traverse(root)         
         return modes    
 ```
 **Note**: This (in-order) traversal of BST will visit values in ascending order. 
