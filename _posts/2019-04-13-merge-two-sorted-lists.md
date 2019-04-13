@@ -19,7 +19,11 @@ no solution provided
 #         self.next = None
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(
+            self, 
+            l1: ListNode, 
+            l2: ListNode
+        ) -> ListNode:
         if not l2:
             return l1
         if not l1:
@@ -48,7 +52,11 @@ $$O(\max(l_1, l_2))$$, where $$l_1$$ and $$l_2$$ are the length of `l1` and `l2`
 #         self.next = None
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(
+            self, 
+            l1: ListNode, 
+            l2: ListNode
+        ) -> ListNode:
         if not l2:
             return l1
         if not l1:
