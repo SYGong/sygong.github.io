@@ -1,5 +1,5 @@
 ---
-title: "Valid Parentheses"
+title: "Merge Two Sorted Lists"
 tags: [LeetCode, Python3]
 categories: leetcore
 mathjax: true
