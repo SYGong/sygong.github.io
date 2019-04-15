@@ -15,9 +15,12 @@ no solution provided
 class Solution:
     def wordPattern(self, pattern: str, st: str) -> bool: 
         words = st.split()
-        return (len(words) == len(pattern) and 
-                len(set(pattern)) == len(set(words)) == len(set(zip(words, pattern)))
-               )
+        return (
+            len(words) == len(pattern) 
+            and len(set(pattern)) 
+                == len(set(words)) 
+                == len(set(zip(words, pattern)))
+        )
 ```
 I am lucky to get
 > Runtime: **36 ms**, faster than **76.09%** of Python3 online submissions for Word Pattern.
