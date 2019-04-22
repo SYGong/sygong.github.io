@@ -18,11 +18,11 @@ Combination of RF and ultrasound hardware to enable a listener to determine the 
 
 ## Distance
 
-|---------------------+---------------------+--------|
-|                     | Denote speed of     | approximate value in air $$(m/ms)$$ |
-|---------------------| ------------------: |--------|
-| $$v_s$$             | sound               | 0.34   |
-| $$v_r$$             | radio               | 299700 |
+|---------------------+---------------------+----------|
+|                     | Denote speed of     | Approximate value in air $$(m/ms)$$ |
+|---------------------| ------------------: |--------: |
+| $$v_s$$             | sound               | 0.34     |
+| $$v_r$$             | radio               | 299700   |
 
 $$d = (t_s - t_r) * (v_r - v_s)$$, where $$t_s$$ / $$t_r$$ are the time listener receives of RF/ultrasound signal.
 
