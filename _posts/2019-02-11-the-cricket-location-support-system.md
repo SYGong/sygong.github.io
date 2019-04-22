@@ -14,7 +14,7 @@ MobiCom '00 Proceedings of the 6th annual international conference on Mobile com
 [Slides](http://www0.cs.ucl.ac.uk/staff/B.Karp/gz06/s2009/gz06_s2009_groupA.pdf)
 
 ## Synopsis
-Combination of [RF and ultrasound](#speed-of-signals) hardware to enable a listener to determine the [distance](#distance) to beacons.
+Combination of [**RF and ultrasound**](#speed-of-signals) to enable a listener to [determine the distance](#distance-measurement) to beacons.
 
 ## Localization
 
@@ -26,7 +26,7 @@ Combination of [RF and ultrasound](#speed-of-signals) hardware to enable a liste
 | $$v_s$$             | ultrasound          | 0.34     |
 | $$v_r$$             | RF                  | 299700   |
 
-### Distance 
+### Distance measurement 
 Distance between beacon and listener $$d = (t_s - t_r) * (v_r - v_s)$$, where $$t_s$$ and $$t_r$$ are the time listener receives of RF and ultrasound signal, respectively.
 
 ## Features
