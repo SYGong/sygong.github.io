@@ -15,7 +15,10 @@ no solution provided
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:        
         return (
-            sum(map(lambda x : x[1], costs))  # Baseline: fly everyone B
+            sum(
+                # Baseline: fly B
+                map(lambda x : x[1], costs)
+            )
             + sum(
                 sorted(
                     # Cost reduced if fly A
