@@ -35,8 +35,6 @@ class Solution:
 I am lucky to get
 > Runtime: **36 ms**, faster than **100.00%** of Python3 online submissions for Two City Scheduling.
 
-> Memory Usage: **13.0 MB**, less than **100.00%** of Python3 online submissions for Two City Scheduling.
-
 ### Time Complexity
 $$O(N)$$, where $$2N$$ is the number of people.
 
@@ -57,7 +55,7 @@ class Solution:
             key = lambda x : abs(x[1] - c0) + abs(x[0] - r0)
         )
 ```
-Time complexity will be $$O(n\log(n))$$, where $$n$$ = `R * C`. In the contest I solved the problem in this way for simplicity. I got
+Time complexity will be $$O(n\log(n))$$, where $$n$$ = `R * C`. In the contest I solved the problem in this way for its simplicity. I got
 
 > Runtime: **264 ms**, faster than **90.23%** of Python3 online submissions for Matrix Cells in Distance Order.
 
