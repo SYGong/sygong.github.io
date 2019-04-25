@@ -57,6 +57,10 @@ class Solution:
             key = lambda x : abs(x[1] - c0) + abs(x[0] - r0)
         )
 ```
-Time complexity will be $$O(n\log(n))$$, where $$n$$ = `R * C`. In the contest I solved the problem in this way for simplicity.
+Time complexity will be $$O(n\log(n))$$, where $$n$$ = `R * C`. In the contest I solved the problem in this way for simplicity. I got
+
+> Runtime: **264 ms**, faster than **90.23%** of Python3 online submissions for Matrix Cells in Distance Order.
+
+Not bad at all.
 
 *[BST]: Binary Search Tree
