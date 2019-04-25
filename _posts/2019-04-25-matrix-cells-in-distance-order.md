@@ -13,12 +13,19 @@ no solution provided
 ## Solution in Python3
 ```python
 class Solution:
-    def allCellsDistOrder(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
+    def allCellsDistOrder(
+            self, 
+            R: int, 
+            C: int, 
+            r0: int, 
+            c0: int
+        ) -> List[List[int]]:
         points = {}
-        maxd = max(r0, R - r0) + max(c0, C - c0)
+        max_dis = max(r0, R - r0) + max(c0, C - c0)
         for i in range(R):
             for j in range(C):
                 d = abs(r0 - i) + abs(c0 - j)
+                points.setdefault(d, [])
                 points[d].append((i, j))
         ans = []
         for key in range(maxd + 1):
@@ -35,7 +42,7 @@ $$O(N)$$, where $$2N$$ is the number of people.
 
 ## Variant
 
-### Sorting
+### (Comparison) Sort
 ```python
 class Solution:
     def allCellsDistOrder(
