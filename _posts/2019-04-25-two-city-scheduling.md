@@ -29,9 +29,10 @@ class Solution:
 ```
 I am lucky to get
 > Runtime: **36 ms**, faster than **100.00%** of Python3 online submissions for Two City Scheduling.
+
 > Memory Usage: **13.0 MB**, less than **100.00%** of Python3 online submissions for Two City Scheduling.
 
 ### Time Complexity
-$$O(N)$$ ($$2N$$ is the number of people).
+$$O(N)$$, where $$2N$$ is the number of people.
 
 *[BST]: Binary Search Tree
