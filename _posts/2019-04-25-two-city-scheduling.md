@@ -13,7 +13,7 @@ no solution provided
 ## Solution in Python3
 ```python
 class Solution:
-    def twoCitySchedCost(self, costs: List[List[int]]) -> int:        
+    def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         return (
             sum(
                 # Baseline: fly B
