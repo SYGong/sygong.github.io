@@ -21,13 +21,14 @@ class Solution:
             c0: int
         ) -> List[List[int]]: 
         dist_cells = {}
-        max_dist = max(r0, R - 1 - r0) + max(c0, C - 1 - c0)
         for i in range(R):
             for j in range(C):
                 dist = abs(r0 - i) + abs(c0 - j)
                 dist_cells.setdefault(dist, [])
                 dist_cells[dist].append([i, j])
+        
         cells = []
+        max_dist = max(r0, R - 1 - r0) + max(c0, C - 1 - c0)
         for dist in range(max_dist + 1):
             cells += dist_cells[dist]
         return cells
