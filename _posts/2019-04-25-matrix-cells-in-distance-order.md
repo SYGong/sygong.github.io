@@ -19,24 +19,26 @@ class Solution:
             C: int, 
             r0: int, 
             c0: int
-        ) -> List[List[int]]:
-        points = {}
-        max_dis = max(r0, R - r0) + max(c0, C - c0)
+        ) -> List[List[int]]: 
+        dist_cells = {}
+        max_dist = max(r0, R - 1 - r0) + max(c0, C - 1 - c0)
         for i in range(R):
             for j in range(C):
-                d = abs(r0 - i) + abs(c0 - j)
-                points.setdefault(d, [])
-                points[d].append((i, j))
-        ans = []
-        for key in range(maxd + 1):
-            ans.extend(points[key])
-        return ans
+                dist = abs(r0 - i) + abs(c0 - j)
+                dist_cells.setdefault(dist, [])
+                dist_cells[dist].append([i, j])
+        cells = []
+        for dist in range(max_dist + 1):
+            cells += dist_cells[dist]
+        return cells
 ```
 I am lucky to get
-> Runtime: **36 ms**, faster than **100.00%** of Python3 online submissions for Two City Scheduling.
+> Runtime: **272 ms**, faster than **74.55%** of Python3 online submissions for Matrix Cells in Distance Order.
+
+> Memory Usage: **15.1 MB**, less than **100.00%** of Python3 online submissions for Matrix Cells in Distance Order.
 
 ### Time Complexity
-$$O(N)$$, where $$2N$$ is the number of people.
+$$O(n)$$, where $$n$$ = `R * C`.
 
 ## Variant
 
