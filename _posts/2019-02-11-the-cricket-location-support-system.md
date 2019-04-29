@@ -28,8 +28,14 @@ Combination of [**RF and ultrasound**](#speed-of-signals) to enable a listener t
 
 ### Distance measurement 
 Distance between beacon and listener  
+$$d =  \frac{v_rv_s\Delta t}{v_r - v_s} \approx v_s\Delta t$$,  
+where $$\Delta t$$ is the time difference between the receipt of RF signal and ultrasonic signal.
+
+{::comment}
 $$d =  \frac{v_rv_s(t_s - t_r)}{v_r - v_s} \approx v_s(t_s - t_r)$$,  
 where $$t_s$$ and $$t_r$$ are the time listener receives of RF and ultrasound signal, respectively.
+{:/comment}
+
 
 ## Features
 - Decentralized, and
