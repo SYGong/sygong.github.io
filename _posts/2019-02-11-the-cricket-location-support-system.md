@@ -21,7 +21,7 @@ Combination of [**RF and ultrasound**](#speed-of-signals) to enable a listener t
 ### Speed of signals
 
 |---------------------+---------------------+----------|
-|                     | Denote speed of     | Approximate value in air $$(m/ms)$$ |
+|                     | Denote speed of     | Approximate value in air ($$m/ms$$) |
 |---------------------| ------------------: |--------: |
 | $$v_s$$             | ultrasound          | 0.34     |
 | $$v_r$$             | RF                  | 299700   |
