@@ -17,8 +17,15 @@ MobiCom '14 Proceedings of the 20th annual international conference on Mobile co
 ## Synopsis
 Enables handheld devices to emulate large antenna arrays using a new formulation of SAR.
 
+## 
+during SAR computation, the source is at a far distance compared to the movement of the tablet
+
+
 {::comment}
 Past work on SAR requires measuring mechanically controlled device movement with millimeter precision, far beyond what commercial accelerometers can provide.
+SAR requires subcentimeter
+accuracy in the device position along its trajectory
+
 {:/comment}
 
 
