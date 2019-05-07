@@ -15,7 +15,7 @@ nsdi'13 Proceedings of the 10th USENIX conference on Networked Systems Design an
 
 
 ## Synopsis
-Uses MIMO based techniques to track wireless clients.
+Uses array of antennas techniques to track wireless clients.
 
 {::comment}
 Past work on SAR requires measuring mechanically controlled device movement with millimeter precision, far beyond what commercial accelerometers can provide.
