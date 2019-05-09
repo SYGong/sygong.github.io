@@ -1,0 +1,30 @@
+---
+title: "A Probabilistic Approach to WLAN User Location Estimation (2002)"
+tags: []
+categories: "position"
+---
+
+## Published in
+- International Journal of Wireless Information Networks  
+July 2002, Volume 9, Issue 3, pp 155–164
+
+### Online copies
+[Article][article_link]
+/
+[Slides](https://slideplayer.com/slide/10312369/)
+
+
+## Synopsis
+A probabilistic framework for solving the location estimation problem.
+
+{::comment}
+Past work on SAR requires measuring mechanically controlled device movement with millimeter precision, far beyond what commercial accelerometers can provide.
+{:/comment}
+
+
+[article_link]: https://link.springer.com/content/pdf/10.1023/A:1016003126882.pdf
+
+*[MIMO]: Multiple-Input, Multiple-Output
+*[SAR]: Synthetic Aperture Radar
+*[SLAM]: Simultaneous Localization and Mapping
+*[MDS]: Multidimensional Scaling
