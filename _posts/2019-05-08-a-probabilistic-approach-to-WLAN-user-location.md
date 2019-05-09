@@ -5,8 +5,8 @@ categories: "position"
 ---
 
 ## Published in
-- Proceeding  
-nsdi'13 Proceedings of the 10th USENIX conference on Networked Systems Design and Implementation
+- International Journal of Wireless Information Networks  
+July 2002, Volume 9, Issue 3, pp 155–164
 
 ### Online copies
 [Article][article_link]
@@ -15,14 +15,14 @@ nsdi'13 Proceedings of the 10th USENIX conference on Networked Systems Design an
 
 
 ## Synopsis
-Uses array of antennas techniques to track wireless clients.
+A probabilistic framework for solving the location estimation problem.
 
 {::comment}
 Past work on SAR requires measuring mechanically controlled device movement with millimeter precision, far beyond what commercial accelerometers can provide.
 {:/comment}
 
 
-[article_link]: https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final51.pdf
+[article_link]: https://link.springer.com/content/pdf/10.1023/A:1016003126882.pdf
 
 *[MIMO]: Multiple-Input, Multiple-Output
 *[SAR]: Synthetic Aperture Radar
