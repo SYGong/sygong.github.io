@@ -13,17 +13,17 @@ categories: "position"
 ## Synopsis
 Taking advantage of peer-to-peer range measurements to estimate the location of the devices in the network.
 
-## ML estimator
-$$\sum_{i=1}^{M}\sum_{j=i+1}^{N} (D_{i,j} - d_{i,j})^2$$
+## MLE
+$$\argmax{\textbf{D} \sum_{i=1}^{M}\sum_{j=i+1}^{N} (D_{i,j} - d_{i,j})^2$$
 
 {: .notice}
-Gaussian error assumption.
+**Note:** Gaussian error assumption.
 {: /notice}
 
 
 [article_link]: https://ieeexplore.ieee.org/abstract/document/1267871
 
-*[MIMO]: Multiple-Input, Multiple-Output
+*[ML]: Maximum Likelihood Estimation
 *[SAR]: Synthetic Aperture Radar
 *[SLAM]: Simultaneous Localization and Mapping
 *[MDS]: Multidimensional Scaling
