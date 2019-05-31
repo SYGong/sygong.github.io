@@ -14,7 +14,7 @@ categories: "position"
 Taking advantage of peer-to-peer range measurements to estimate the location of the devices in the network.
 
 ## MLE
-$$\mathop{\arg\,\max}\limits_{\textbf{D}} \sum_{i=1}^{M}\sum_{j=i+1}^{N} (D_{i,j} - d_{i,j})^2$$, where $M$ is number of blind node, and $N$ is the number of total nodes.
+$$\mathop{\arg\,\max}\limits_{\textbf{D}} \sum_{i=1}^{M}\sum_{j=i+1}^{N} (D_{i,j} - d_{i,j})^2$$, where $$M$$ is number of blind node, and $$N$$ is the number of total nodes.
 
 {: .notice}
 **Note:** Gaussian error assumption.
