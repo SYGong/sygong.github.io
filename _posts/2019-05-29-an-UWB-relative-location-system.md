@@ -23,7 +23,7 @@ $$\mathop{\arg\,\max}\limits_{\mathbf{D}} \sum_{i=1}^{M}\sum_{j=i+1}^{N} (D_{i,j
 
 [article_link]: https://ieeexplore.ieee.org/abstract/document/1267871
 
-*[ML]: Maximum Likelihood Estimation
+*[MLE]: Maximum Likelihood Estimation
 *[SAR]: Synthetic Aperture Radar
 *[SLAM]: Simultaneous Localization and Mapping
 *[MDS]: Multidimensional Scaling
