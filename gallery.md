@@ -3,8 +3,8 @@ layout: single
 permalink: /gallery/
 
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+  - url: /assets/images/gallery/IMG_3862.jpg
+    image_path: /assets/images/gallery/IMG_3862.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/unsplash-gallery-image-2.jpg
