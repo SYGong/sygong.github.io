@@ -14,7 +14,7 @@ categories: "Youtube"
 Provides a simple method to efficiently propagate preference information through a variety of graphs. 
 
 {: .notice}
-**Note:** Figure 3 and 4 are Precision-Recall plots rather than ROC.
+**Note:** Figure 3 and 4 are Precision-Recall plots rather than ROC plots. Actually all ROCs in this paper are Precision-Recall pairs.
 {: /notice}
 
 
