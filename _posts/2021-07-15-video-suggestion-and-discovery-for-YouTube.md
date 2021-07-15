@@ -20,7 +20,7 @@ Provides a simple method to efficiently propagate preference information through
 
 [article_link]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/34407.pdf
 
-*[MLE]: Maximum Likelihood Estimation
+*[ROC]: Receiver Operating Characteristic
 *[SAR]: Synthetic Aperture Radar
 *[SLAM]: Simultaneous Localization and Mapping
 *[MDS]: Multidimensional Scaling
