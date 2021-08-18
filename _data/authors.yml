@@ -1,11 +1,11 @@
 Siyuan Gong:
   name: "Siyuan Gong"
-  bio: "Hunting for amazing beasts"
+  bio: "Stretch!"
   location: "Boston, MA"
   links:
   - label: "LinkedIn"
     icon: fab fa-linkedin-in
     url: "https://www.linkedin.com/in/siyuan-gong-12867759/"
-  - label: "Hire me!"
+  - label: "Work with me!"
     icon: far fa-envelope
     url: "mailto:hire@siyuangong.com"
