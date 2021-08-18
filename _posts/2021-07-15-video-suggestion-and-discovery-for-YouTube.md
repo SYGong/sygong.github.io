@@ -1,7 +1,7 @@
 ---
 title: "Video Suggestion and Discovery for YouTube Taking Random Walks Through the View Graph (2008)"
 tags: []
-categories: "Youtube"
+categories: "internet"
 ---
 
 ## Published in
